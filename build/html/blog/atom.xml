@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>http://lernfunk.de/media/654321</id>
+  <title>devol.me Blog</title>
+  <updated>2020-09-30T06:07:59.100814+00:00</updated>
+  <link href="https://devol.me/"/>
+  <link href="https://devol.me/blog/atom.xml"/>
+  <generator uri="https://ablog.readthedocs.org" version="0.10.9">ABlog</generator>
+  <entry>
+    <id>https://devol.me/first-post.html</id>
+    <title>First Post</title>
+    <updated>2020-09-29T00:00:00-07:00</updated>
+    <author>
+      <name>Pierce Devol</name>
+    </author>
+    <content type="html">&lt;p&gt;World, hello again! This very first paragraph of the post will be used
+as excerpt in archives and feeds. Find out how to control how much is shown
+in &lt;a class="reference external" href="https://ablog.readthedocs.org/manual/post-excerpts-and-images/"&gt;Post Excerpts and Images&lt;/a&gt;. Remember
+that you can refer to posts by file name, e.g. &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:ref:`first-post`&lt;/span&gt;&lt;/code&gt; results
+in &lt;a class="reference internal" href="first-post.html#first-post"&gt;&lt;span class="std std-ref"&gt;First Post&lt;/span&gt;&lt;/a&gt;. Find out more at &lt;a class="reference external" href="https://ablog.readthedocs.org/manual/cross-referencing-blog-pages/"&gt;Cross-Referencing Blog Pages&lt;/a&gt;.&lt;/p&gt;
+</content>
+    <link href="https://devol.me/first-post.html" rel="alternate"/>
+    <published>2020-09-29T00:00:00-07:00</published>
+  </entry>
+</feed>
