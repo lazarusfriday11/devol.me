@@ -1,0 +1,45 @@
+##############################
+Pierce Devol: Technical Writer
+##############################
+
+.. contents:: Jump To:
+   :local:
+   :depth: 1 
+
+
+.. sidebar:: Pierce Devol
+
+   .. image:: _static/pierceprofile.jpg
+
+
+Resume
+======
+
+
+.. include:: PierceDevolResume.rst
+   :start-line: 12 
+
+Portfolio
+=========
+
+.. include:: Portfolio.rst
+   :start-line: 4
+
+
+
+Contact
+=======
+
+   
+   .. include:: contact.rst
+
+
+.. toctree:: 
+   :maxdepth: 1
+
+   PierceDevolResume
+   Portfolio
+   contact
+
+
+

@@ -1,0 +1,125 @@
+.. meta::
+        :title: Resume 
+        :author: Pierce Devol (pierce@devol.me)
+        
+############
+Resume
+############
+
+Purpose
+=======
+
+Proven technical writer seeks to develop clear and concise texts through *empathic documentation*;
+A process that creates more than just documentation:
+
+- Deconstructive editing finds core elements for better understanding and content re-use. 
+- Active listening gathers knowledge and instills confidence in both expert and audience. 
+- Lateral thinking avoids conflicts through constructive criticism.
+- Research brings answers to unasked questions and respects an experts time.
+- Through real understanding of the experts and audience, excellent independent work is enabled with minimal support.
+- This method of documentation highlights inefficiency in existing processes.
+  
+Make documentation a symbiotic and synergistic process that improves the lives of the the experts and the audience at the same time. 
+
+Qualifications
+--------------
+
+-  Principal author and editor of 4 different knowledge bases using Confluence and ServiceNow.
+-  Single-source documentation specialist for publishing and reuse on any platform.
+-  Conscious of cultural bias, idiom, and otherwise distracting or offensive language in writing for diverse audiences.
+-  Understanding of full-stack web development; from design to hosting.
+-  Experience working in a CI/DI pipeline with remote repositories, version control, and version tracking alongside developer's workflow.
+
+Skills    
+----------------
+
+* Markup languages such as HTML, Markdown, and reStructured text
+* Basic knowledge of CSS
+* Expert Windows and macOS client support
+* Linux workstation and remote server experience, working knowledge of bash
+
+  * Distributions include CentOS, Arch, and Ubuntu
+
+* MDM tools like Jamf and Meraki 
+* Terminal emulator and command-line interfaces.
+* git and GitHub 
+* Content management systems like ServiceNow, Confluence, and AODocs
+* Working knowledge of Adobe Creative Cloud suite
+* Advanced Microsoft Word, Excel, and PowerPoint skills
+* Expert on G Suite Docs, Sheets, and Slides
+* Project management tools like Smartsheet
+* Expert Lucidchart diagrams
+* Static site generators such as Sphinx, Hugo, and Jekyll
+* Atlassian products like Jira, Confluence, and ServiceDesk
+
+Writing experience
+------------------
+
+* System administrator documentation
+* Disaster Recovery Plans (DRPs)
+* Standard Operating Procedures (SOPs)
+* End-user documentation 
+* Network documentation and diagrams
+* FDA compliance documentation, 21 CFR Part 11
+* Blog content
+* Diagrams and charts
+
+Education
+---------
+
+-  St. Olaf College; Northfield, MN; Class of 2011; Greek Classics and
+   Religion.
+-  Pacific Lutheran Theological Seminary; Berkeley, CA; 2011-2013.
+
+Work Experience
+---------------
+
+Technical Writer at KDInfotech; employed November 2018 - September 2020.
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+-  Supplied writing services for primary biotech client GRAIL Inc.
+-  Architect of two IT Knowledge bases.
+-  Editor/Ghost Writer of critical infrastructure documentation.
+-  Prolific writer of end-user documentation for business wide systems.
+-  Supplied federal compliance documentation for FDA audit.
+
+IT Support Engineer at Twitch/Amazon; employed December 2016 - October 2018.
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+-  Authored the majority of end-user documentation.
+-  Provided white-glove user support using Jira Service Desk for ticketing.
+-  Administered multiple SaaS products such as Jira, Confluence, G Suite,
+   Lucidchart, Office 365 products, and Jamf.
+-  Worked with enterprise level directory services such as AD and LDAP.
+-  Prepared, repaired and deployed Windows, macOS, and Linux machines.
+
+Technical Service Representative at SmartSource Computer & AV Rentals; employed November 2014 - September 2016.
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+-  Organized, prepared and delivered computers and other equipment for
+   use in conventions, trade shows & conferences.
+-  Focused on asset management and order fulfillment.
+-  Imaged large amounts of computers on a daily basis.
+
+Computer Technician at American Tech, Inc; September 2013 to November 2014.
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+-  Provided break/fix computer services.
+-  Performed in-depth malware removal and system cleaning on a daily basis.
+-  Learned all the different ways a computer can fail to boot.
+
+Technical Service Representative at SmartSource Computer & AV Rentals; employed November 2014 - September 2016.
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+-  Organized, prepared and delivered computers and other equipment for
+   use in conventions, trade shows & conferences.
+-  Focused on asset management and order fulfillment.
+-  Imaged and prepped large amounts of computers simultaneously on a daily basis.
+
+Computer Technician at American Tech, Inc; September 2013 to November 2014.
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+-  Provided break/fix computer services.
+-  Performed in-depth malware removal and system cleaning on a daily basis.
+-  Learned all the different ways a computer can fail to boot.
+
