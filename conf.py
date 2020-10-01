@@ -18,8 +18,7 @@ import alabaster
 # A path relative to the configuration directory for blog archive pages.
 # blog_path = 'blog'
 
-# The "title" for the blog, used in active pages.  Default is ``'Blog'``.
-blog_title = u'devol.me Blog'
+# The "title" for the blog, used in active pages.  Default is ``'Blog'``.  blog_title = u'devol.me Blog'
 
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
@@ -255,7 +254,6 @@ html_theme_options = {
     'github_button': True,
     'github_user': 'lazarusfriday11',
     'github_repo': 'devol.me',
-    'fixed_sidebar': True,
     'analytics_id': 'UA-27088500-2',
 }
 
