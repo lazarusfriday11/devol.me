@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="Read Me" name="title" />
+
+    <title>How to invoke python environment: &#8212; devol.me  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="author" title="About these documents" href="../about/" />
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+  
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  
+  <link rel="alternate" type="application/atom+xml"  href="../blog/atom.xml" title="devol.me Blog">
+  
+  
+  <link href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" rel="stylesheet">
+  
+  <style type="text/css">
+    ul.ablog-archive {list-style: none; overflow: auto; margin-left: 0px}
+    ul.ablog-archive li {float: left; margin-right: 5px; font-size: 80%}
+    ul.postlist a {font-style: italic;}
+    ul.postlist-style-disc {list-style-type: disc;}
+    ul.postlist-style-none {list-style-type: none;}
+    ul.postlist-style-circle {list-style-type: circle;}
+  </style>
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="how-to-invoke-python-environment">
+<h1>How to invoke python environment:<a class="headerlink" href="#how-to-invoke-python-environment" title="Permalink to this headline">¶</a></h1>
+<dl class="simple">
+<dt>::</dt><dd><p>source py_env/bin/activate</p>
+</dd>
+</dl>
+<p>Source: <a class="reference external" href="https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server">https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server</a></p>
+</div>
+<div class="section" id="ablog">
+<h1>Ablog<a class="headerlink" href="#ablog" title="Permalink to this headline">¶</a></h1>
+<p>This site is built for use with <a class="reference external" href="https://ablog.readthedocs.io/">Ablog</a>.</p>
+<div class="section" id="basics">
+<h2>Basics<a class="headerlink" href="#basics" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p>Do not use a sphinx builder or <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">html</span></code>, instead use <code class="docutils literal notranslate"><span class="pre">ablog</span> <span class="pre">build</span></code> to perform the same function and utilize the features from ABlog.</p></li>
+<li><p>To make a blog post with ablog, use the <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">post::</span></code> directive:</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">post</span><span class="p">::</span> <span class="n">Apr</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">2014</span>
+    <span class="p">:</span><span class="n">tags</span><span class="p">:</span> <span class="n">earth</span><span class="p">,</span> <span class="n">love</span><span class="p">,</span> <span class="n">peace</span>
+    <span class="p">:</span><span class="n">category</span><span class="p">:</span> <span class="n">python</span>
+    <span class="p">:</span><span class="n">author</span><span class="p">:</span> <span class="n">me</span>
+    <span class="p">:</span><span class="n">location</span><span class="p">:</span> <span class="n">SF</span>
+    <span class="p">:</span><span class="n">language</span><span class="p">:</span> <span class="n">en</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>To show a list of posts (like from a category or year archive) use the <code class="docutils literal notranslate"><span class="pre">..</span> <span class="pre">postlist::</span></code> directive:</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">postlist</span><span class="p">::</span>
+   <span class="p">:</span><span class="nb">list</span><span class="o">-</span><span class="n">style</span><span class="p">:</span> <span class="n">circle</span>
+   <span class="p">:</span><span class="n">category</span><span class="p">:</span> <span class="n">Manual</span>
+   <span class="p">:</span><span class="nb">format</span><span class="p">:</span> <span class="p">{</span><span class="n">title</span><span class="p">}</span>
+   <span class="p">:</span><span class="n">sort</span><span class="p">:</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+</div>
+
+  <div class="section">
+  
+  
+  </div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../">devol.me</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+
+  <h3><a href="../blog/">Recent Posts</a></h3>
+  <ul>
+    
+    
+      <li><a href="../source/first-post/">29 September - First Post</a></li>
+    
+  </ul>
+
+  <h3><a href="../blog/tag/">Tags</a></h3>
+  <style type="text/css">
+    ul.ablog-cloud {list-style: none; overflow: auto;}
+    ul.ablog-cloud li {float: left; height: 20pt; line-height: 18pt; margin-right: 5px;}
+    ul.ablog-cloud a {text-decoration: none; vertical-align: middle;}
+    li.ablog-cloud-1{font-size: 80%;}
+    li.ablog-cloud-2{font-size: 95%;}
+    li.ablog-cloud-3{font-size: 110%;}
+    li.ablog-cloud-4{font-size: 125%;}
+    li.ablog-cloud-5{font-size: 140%;}
+  </style>
+  <ul class="ablog-cloud">
+    
+      
+      <li class="ablog-cloud ablog-cloud-3">
+        <a href="../blog/tag/atag/">atag</a></li>
+      
+    
+  </ul>
+
+  <h3><a href="../blog/archive/">Archives</a></h3>
+  <ul>
+  
+    
+    <li><a href="../blog/2020/">2020 (1)</a></li>
+    
+  
+  </ul>
+
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search/" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Pierce Devol.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/README.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
