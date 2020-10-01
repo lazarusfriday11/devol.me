@@ -9,10 +9,6 @@ Pierce Devol: Technical Writer
 
 --------
 
-.. image:: source/_static/profile.png
-    :align: right 
-
-
 .. include:: source/PierceDevolResume.rst
 
 Portfolio
