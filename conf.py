@@ -95,11 +95,10 @@ post_date_format = '%b %d, %Y'
 # In addition, there are authors.html, languages.html, and locations.html
 # sidebars that link to author and location archive pages.
 html_sidebars = {
-    '**': [ 'about.html',
-            'postcard.html', 'navigation.html',
+    '**': [ 
+            'postcard.html', 
             'recentposts.html', 'tagcloud.html',
             'categories.html',  'archives.html',
-            'searchbox.html',
             ],
     }
 

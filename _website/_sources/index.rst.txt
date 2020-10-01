@@ -32,8 +32,6 @@ Table of Contents
         source/PierceDevolResume
         source/Portfolio
         source/contact
-        blog/
-
-
-
+        source/blog/
+        source/License
 
