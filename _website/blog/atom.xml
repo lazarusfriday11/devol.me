@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>http://lernfunk.de/media/654321</id>
-  <title>devol.me Blog</title>
-  <updated>2020-10-01T20:40:18.562313+00:00</updated>
+  <title>Blog</title>
+  <updated>2020-10-01T20:50:39.109562+00:00</updated>
   <link href="https://devol.me"/>
   <link href="https://devol.me/blog/atom.xml"/>
   <generator uri="https://ablog.readthedocs.org" version="0.10.9">ABlog</generator>
