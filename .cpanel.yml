@@ -2,6 +2,7 @@
 deployment:
     tasks:
             - export DEPLOYPATH=/home/devorwye/public_html/
+            - /bin/cp -R /home/devorwye/devol.me/_website/index.html /home/public_html/ $DEPLOYPATH
             - /bin/cp -R /home/devorwye/devol.me/_website /home/devorwye/public_html/ $DEPLOYPATH
 ---
 
