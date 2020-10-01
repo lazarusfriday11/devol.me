@@ -1,0 +1,7 @@
+---
+deployment:
+    tasks:
+            - export DEPLOYPATH=/home/devorwye/public_html/
+            - /bin/cp -rf /home/devorwye/devol.me/_website /home/devorwye/public_html/ $DEPLOYPATH
+---
+
