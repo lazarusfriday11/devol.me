@@ -251,9 +251,9 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'github_button': True,
-    'github_user': 'lazarusfriday11',
-    'github_repo': 'devol.me',
+#    'github_button': True,
+#    'github_user': 'lazarusfriday11',
+#    'github_repo': 'devol.me',
     'analytics_id': 'UA-27088500-2',
 }
 
