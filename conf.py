@@ -16,7 +16,7 @@ import alabaster
 # -- General ABlog Options ----------------------------------------------------
 
 # A path relative to the configuration directory for blog archive pages.
-# blog_path = 'blog'
+blog_path = 'source/blog'
 
 # The "title" for the blog, used in active pages.  Default is ``'Blog'``.  blog_title = u'devol.me Blog'
 
