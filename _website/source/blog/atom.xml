@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>http://lernfunk.de/media/654321</id>
   <title>Blog</title>
-  <updated>2020-10-01T23:40:16.344613+00:00</updated>
+  <updated>2020-10-05T23:02:04.462133+00:00</updated>
   <link href="https://devol.me"/>
   <link href="https://devol.me/source/blog/atom.xml"/>
   <generator uri="https://ablog.readthedocs.org" version="0.10.9">ABlog</generator>

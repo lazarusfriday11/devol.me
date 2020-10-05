@@ -1,0 +1,1328 @@
+<?xml version="1.0"?>
+<root ptr="0x559d8eb2ad90" id="4" symbol="11SwRootFrame" lower="5">
+ <sfxViewShells>
+  <SwView>
+   <SfxViewShell ptr="0x559d92148000" id="3"/>
+   <SwCursorShell>
+    <SwViewShell/>
+    <m_pCurrentCursor>
+     <SwPaM>
+      <point>
+       <SwPosition nNode="11" nContent="0"/>
+      </point>
+     </SwPaM>
+    </m_pCurrentCursor>
+   </SwCursorShell>
+  </SwView>
+ </sfxViewShells>
+ <infos>
+  <bounds left="284" top="284" width="18836" height="128708" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+  <prtBounds left="0" top="0" width="18836" height="128708"/>
+ </infos>
+ <page ptr="0x559d8eb57420" id="5" symbol="11SwPageFrame" next="142" upper="4" lower="6">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="6880" top="284" width="12240" height="15840" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1440" top="1440" width="9360" height="12960"/>
+  </infos>
+  <body ptr="0x559d9214a270" id="6" symbol="11SwBodyFrame" upper="5" lower="7">
+   <infos>
+    <bounds left="8320" top="1724" width="9360" height="12960" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9360" height="12960"/>
+   </infos>
+   <tab ptr="0x559d8e8c3e70" id="7" symbol="10SwTabFrame" upper="6" lower="8" follow="139">
+    <infos>
+     <bounds left="8320" top="1724" width="9360" height="12864" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="-217" top="0" width="8748" height="12864"/>
+    </infos>
+    <row ptr="0x559d8eb59cf0" id="8" symbol="10SwRowFrame" next="14" upper="7" lower="9">
+     <infos>
+      <bounds left="8103" top="1724" width="8748" height="3520" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="false"/>
+      <prtBounds left="0" top="0" width="8748" height="3520"/>
+     </infos>
+     <cell ptr="0x559d8edc8f20" id="9" symbol="11SwCellFrame" next="12" upper="8" lower="10" rowspan="1">
+      <infos>
+       <bounds left="8103" top="1724" width="4428" height="3520" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="false"/>
+       <prtBounds left="108" top="0" width="4320" height="3520"/>
+      </infos>
+      <txt ptr="0x559d8f7f8810" id="10" symbol="11SwTextFrame" next="11" upper="9" txtNodeIndex="11" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="1724" width="4320" height="2400" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="4320" height="2400"/>
+       </infos>
+Set up Basic GRAIL Developer Environment       <Finish/>
+      </txt>
+      <txt ptr="0x559d9221ae50" id="11" symbol="11SwTextFrame" prev="10" upper="9" txtNodeIndex="12" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="4124" width="4320" height="1120" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="4320" height="1120"/>
+       </infos>
+Updated 24 Days AgoGRAIL Employees and Contractors       <Finish/>
+      </txt>
+     </cell>
+     <cell ptr="0x559d8f502bc0" id="12" symbol="11SwCellFrame" prev="9" upper="8" lower="13" rowspan="1">
+      <infos>
+       <bounds left="12531" top="1724" width="4320" height="3520" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="false"/>
+       <prtBounds left="108" top="0" width="4212" height="3520"/>
+      </infos>
+      <txt ptr="0x559d8f47c940" id="13" symbol="11SwTextFrame" upper="12" txtNodeIndex="15" WritingMode="Horizontal">
+       <infos>
+        <bounds left="12639" top="3324" width="4212" height="320" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="4212" height="320"/>
+       </infos>
+       <Finish/>
+      </txt>
+     </cell>
+    </row>
+    <row ptr="0x559d8f0130a0" id="14" symbol="10SwRowFrame" prev="8" upper="7" lower="15">
+     <infos>
+      <bounds left="8103" top="5244" width="8748" height="9344" mbFixSize="false" mbValidPos="false" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="8748" height="9344"/>
+     </infos>
+     <cell ptr="0x559d8f0a2f20" id="15" symbol="11SwCellFrame" upper="14" lower="16" follow="141" rowspan="1">
+      <infos>
+       <bounds left="8103" top="5244" width="8748" height="9344" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="0" width="8640" height="9344"/>
+      </infos>
+      <txt ptr="0x559d915ecc00" id="16" symbol="11SwTextFrame" next="17" upper="15" txtNodeIndex="18" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="5244" width="8640" height="1304" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="1304"/>
+       </infos>
+Set up Basic GRAIL Developer Environment       <Text nLength="19" nType="PortionType::Para" nHeight="652" nWidth="6182" Portion="Set up Basic GRAIL "/>
+       <LineBreak nWidth="6182" Line="Set up Basic GRAIL "/>
+       <Text nLength="21" nType="PortionType::Lay" nHeight="652" nWidth="7445" Portion="Developer Environment"/>
+       <LineBreak nWidth="7445" Line="Developer Environment"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d9229c3a0" id="17" symbol="11SwTextFrame" next="18" prev="16" upper="15" txtNodeIndex="19" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="6548" width="8640" height="2324" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="420" width="8640" height="1904"/>
+       </infos>
+In this document, learn how to clone from and prepare to push code to GRAIL code repositories. Install Arcanist, Bazel, Git to contribute to the GRAIL development process. Be sure to join the sw-announcement Google group as well.       <Text nLength="57" nType="PortionType::Para" nHeight="326" nWidth="8146" Portion="In this document, learn how to clone from and prepare to "/>
+       <LineBreak nWidth="8146" Line="In this document, learn how to clone from and prepare to "/>
+       <Text nLength="63" nType="PortionType::Lay" nHeight="326" nWidth="8619" Portion="push code to GRAIL code repositories. Install Arcanist, Bazel, "/>
+       <LineBreak nWidth="8619" Line="push code to GRAIL code repositories. Install Arcanist, Bazel, "/>
+       <Text nLength="60" nType="PortionType::Lay" nHeight="326" nWidth="8506" Portion="Git to contribute to the GRAIL development process.&#x2028;Be sure "/>
+       <LineBreak nWidth="8506" Line="Git to contribute to the GRAIL development process.&#x2028;Be sure "/>
+       <Text nLength="11" nType="PortionType::Text" nHeight="326" nWidth="1423" Portion="to join the"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="15" nType="PortionType::Text" nHeight="326" nWidth="2588" Portion="sw-announcement"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="21" nType="PortionType::Text" nHeight="326" nWidth="3037" Portion="Google group as well."/>
+       <LineBreak nWidth="7226" Line="to join the&#xA0;sw-announcement&#xA0;Google group as well."/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d906e1c00" id="18" symbol="11SwTextFrame" next="19" prev="17" upper="15" txtNodeIndex="20" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="8872" width="8640" height="716" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="240" width="9360" height="476"/>
+       </infos>
+Install required software       <Special nLength="0" nType="PortionType::Bullet" rText="&#x2022;" nHeight="240">
+        <SwFont ptr="0x559d8ef0c920" color="ffffffff"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="276" nWidth="636"/>
+       <Text nLength="25" nType="PortionType::Text" nHeight="326" nWidth="3420" Portion="Install required software"/>
+       <LineBreak nWidth="4140" Line="&#x2022;Install required software"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f287ad0" id="19" symbol="11SwTextFrame" next="20" prev="18" upper="15" txtNodeIndex="21" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="9588" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+Add SSH Public key to Phabricator       <Special nLength="0" nType="PortionType::Bullet" rText="&#x2022;" nHeight="240">
+        <SwFont ptr="0x559d90a025b0" color="ffffffff"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="276" nWidth="636"/>
+       <Text nLength="33" nType="PortionType::Text" nHeight="326" nWidth="4783" Portion="Add SSH Public key to Phabricator"/>
+       <LineBreak nWidth="5503" Line="&#x2022;Add SSH Public key to Phabricator"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e7063a0" id="20" symbol="11SwTextFrame" next="21" prev="19" upper="15" txtNodeIndex="22" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="10064" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+Clone GRAIL code repositories       <Special nLength="0" nType="PortionType::Bullet" rText="&#x2022;" nHeight="240">
+        <SwFont ptr="0x559d8e72ea40" color="ffffffff"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="276" nWidth="636"/>
+       <Text nLength="29" nType="PortionType::Text" nHeight="326" nWidth="4231" Portion="Clone GRAIL code repositories"/>
+       <LineBreak nWidth="4951" Line="&#x2022;Clone GRAIL code repositories"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d90b8a770" id="21" symbol="11SwTextFrame" next="22" prev="20" upper="15" txtNodeIndex="23" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="10540" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+Prepare to push to GRAIL code repositories       <Special nLength="0" nType="PortionType::Bullet" rText="&#x2022;" nHeight="240">
+        <SwFont ptr="0x559d8ee33040" color="ffffffff"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="276" nWidth="636"/>
+       <Text nLength="42" nType="PortionType::Text" nHeight="326" nWidth="6037" Portion="Prepare to push to GRAIL code repositories"/>
+       <LineBreak nWidth="6757" Line="&#x2022;Prepare to push to GRAIL code repositories"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb77370" id="22" symbol="11SwTextFrame" next="23" prev="21" upper="15" txtNodeIndex="24" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="11016" width="8640" height="1428" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="1428"/>
+       </infos>
+To complete the setup properly, follow the instructions in each section. Ensure that you complete each section before moving on to the next one:       <Text nLength="59" nType="PortionType::Para" nHeight="326" nWidth="8137" Portion="To complete the setup properly, follow the instructions in "/>
+       <LineBreak nWidth="8137" Line="To complete the setup properly, follow the instructions in "/>
+       <Text nLength="59" nType="PortionType::Lay" nHeight="326" nWidth="8433" Portion="each section.&#x2028;Ensure that you complete each section before "/>
+       <LineBreak nWidth="8433" Line="each section.&#x2028;Ensure that you complete each section before "/>
+       <Text nLength="26" nType="PortionType::Lay" nHeight="326" nWidth="3818" Portion="moving on to the next one:"/>
+       <LineBreak nWidth="3818" Line="moving on to the next one:"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e799df0" id="23" symbol="11SwTextFrame" next="24" prev="22" upper="15" txtNodeIndex="25" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="12444" width="8640" height="716" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="240" width="9360" height="476"/>
+       </infos>
+ Install Required Software       <Special nLength="0" nType="PortionType::Bullet" rText="&#x2022;" nHeight="240">
+        <SwFont ptr="0x559d8ed02800" color="ffffffff"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="276" nWidth="636"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="25" nType="PortionType::Text" nHeight="326" nWidth="3531" Portion="Install Required Software"/>
+       <LineBreak nWidth="4340" Line="&#x2022;&#xA0;Install Required Software"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e950d60" id="24" symbol="11SwTextFrame" next="25" prev="23" upper="15" txtNodeIndex="26" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="13160" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+ Install Arcanist       <Special nLength="0" nType="PortionType::Bullet" rText="&#x2022;" nHeight="240">
+        <SwFont ptr="0x559d8fa6dd20" color="ffffffff"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="276" nWidth="636"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="16" nType="PortionType::Text" nHeight="326" nWidth="2075" Portion="Install Arcanist"/>
+       <LineBreak nWidth="2884" Line="&#x2022;&#xA0;Install Arcanist"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e810d70" id="25" symbol="11SwTextFrame" next="26" prev="24" upper="15" txtNodeIndex="27" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="13636" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+ Generate an SSH key pair       <Special nLength="0" nType="PortionType::Bullet" rText="&#x2022;" nHeight="240">
+        <SwFont ptr="0x559d8fa6eb50" color="ffffffff"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="276" nWidth="636"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="24" nType="PortionType::Text" nHeight="326" nWidth="3621" Portion="Generate an SSH key pair"/>
+       <LineBreak nWidth="4430" Line="&#x2022;&#xA0;Generate an SSH key pair"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f7145c0" id="26" symbol="11SwTextFrame" prev="25" upper="15" txtNodeIndex="28" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="14112" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+ Setup Phabricator       <Special nLength="0" nType="PortionType::Bullet" rText="&#x2022;" nHeight="240">
+        <SwFont ptr="0x559d92f406e0" color="ffffffff"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="276" nWidth="636"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="17" nType="PortionType::Text" nHeight="326" nWidth="2514" Portion="Setup Phabricator"/>
+       <LineBreak nWidth="3323" Line="&#x2022;&#xA0;Setup Phabricator"/>
+       <Finish/>
+      </txt>
+     </cell>
+    </row>
+   </tab>
+  </body>
+ </page>
+ <page ptr="0x559d90c13850" id="142" symbol="11SwPageFrame" next="144" prev="5" upper="4" lower="143">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="true"/>
+  <infos>
+   <bounds left="6880" top="16408" width="12240" height="15840" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1440" top="1440" width="9360" height="12960"/>
+  </infos>
+  <body ptr="0x559d909dc9b0" id="143" symbol="11SwBodyFrame" upper="142" lower="139">
+   <infos>
+    <bounds left="8320" top="17848" width="9360" height="12960" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9360" height="12960"/>
+   </infos>
+   <tab ptr="0x559d8eeaef20" id="139" symbol="10SwTabFrame" upper="143" lower="140" follow="146" precede="7">
+    <infos>
+     <bounds left="8320" top="17848" width="9360" height="12607" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="-217" top="0" width="8748" height="12607"/>
+    </infos>
+    <row ptr="0x559d909f4d60" id="140" symbol="10SwRowFrame" upper="139" lower="141">
+     <infos>
+      <bounds left="8103" top="17848" width="8748" height="12607" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="8748" height="12607"/>
+     </infos>
+     <cell ptr="0x559d8e948700" id="141" symbol="11SwCellFrame" upper="140" lower="27" follow="148" precede="15" rowspan="1">
+      <infos>
+       <bounds left="8103" top="17848" width="8748" height="12607" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="0" width="8640" height="12607"/>
+      </infos>
+      <txt ptr="0x559d8f2426e0" id="27" symbol="11SwTextFrame" next="28" upper="141" txtNodeIndex="29" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="17848" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+ Update Git user information       <Special nLength="0" nType="PortionType::Bullet" rText="&#x2022;" nHeight="240">
+        <SwFont ptr="0x559d8eb78bf0" color="ffffffff"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="276" nWidth="636"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="27" nType="PortionType::Text" nHeight="326" nWidth="3918" Portion="Update Git user information"/>
+       <LineBreak nWidth="4727" Line="&#x2022;&#xA0;Update Git user information"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb0a880" id="28" symbol="11SwTextFrame" next="29" prev="27" upper="141" txtNodeIndex="30" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="18324" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+ Clone the GRAIL mono repo       <Special nLength="0" nType="PortionType::Bullet" rText="&#x2022;" nHeight="240">
+        <SwFont ptr="0x559d90387400" color="ffffffff"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="276" nWidth="636"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="25" nType="PortionType::Text" nHeight="326" nWidth="3881" Portion="Clone the GRAIL mono repo"/>
+       <LineBreak nWidth="4690" Line="&#x2022;&#xA0;Clone the GRAIL mono repo"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e8a8500" id="29" symbol="11SwTextFrame" next="30" prev="28" upper="141" txtNodeIndex="31" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="18800" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+ Prepare to push to GRAIL code repositories       <Special nLength="0" nType="PortionType::Bullet" rText="&#x2022;" nHeight="240">
+        <SwFont ptr="0x559d8eb108c0" color="ffffffff"/>
+       </Special>
+       <Text nLength="0" nType="PortionType::TabLeft" nHeight="276" nWidth="636"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="42" nType="PortionType::Text" nHeight="326" nWidth="6037" Portion="Prepare to push to GRAIL code repositories"/>
+       <LineBreak nWidth="6846" Line="&#x2022;&#xA0;Prepare to push to GRAIL code repositories"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8efe0400" id="30" symbol="11SwTextFrame" next="31" prev="29" upper="141" txtNodeIndex="32" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="19276" width="8640" height="1904" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="1904"/>
+       </infos>
+NOTE: If you are not onsite and connected to the GRAIL intranet, you will need to connect to the VPN in order to access some systems, such as staging servers or the code repository.       <Text nLength="5" nType="PortionType::Text" nHeight="326" nWidth="967" Portion="NOTE:"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="49" nType="PortionType::Text" nHeight="326" nWidth="6933" Portion="If you are not onsite and connected to the GRAIL "/>
+       <LineBreak nWidth="7989" Line="NOTE:&#xA0;If you are not onsite and connected to the GRAIL "/>
+       <Text nLength="26" nType="PortionType::Text" nHeight="326" nWidth="3515" Portion="intranet, you will need to"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="18" nType="PortionType::Text" nHeight="326" nWidth="2694" Portion="connect to the VPN"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="12" nType="PortionType::Text" nHeight="326" nWidth="1555" Portion="in order to "/>
+       <LineBreak nWidth="7942" Line="intranet, you will need to&#xA0;connect to the VPN&#xA0;in order to "/>
+       <Text nLength="57" nType="PortionType::Lay" nHeight="326" nWidth="8307" Portion="access some systems, such as staging servers or the code "/>
+       <LineBreak nWidth="8307" Line="access some systems, such as staging servers or the code "/>
+       <Text nLength="11" nType="PortionType::Lay" nHeight="326" nWidth="1511" Portion="repository."/>
+       <LineBreak nWidth="1511" Line="repository."/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ef95e60" id="31" symbol="11SwTextFrame" next="32" prev="30" upper="141" txtNodeIndex="33" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="21180" width="8640" height="559" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="559"/>
+       </infos>
+Install Required Software       <Text nLength="25" nType="PortionType::Para" nHeight="559" nWidth="6917" Portion="Install Required Software"/>
+       <LineBreak nWidth="6917" Line="Install Required Software"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ecac1a0" id="32" symbol="11SwTextFrame" next="33" prev="31" upper="141" txtNodeIndex="34" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="21739" width="8640" height="1312" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="360" width="8640" height="952"/>
+       </infos>
+1. Open a terminal window and install Homebrew:       <Text nLength="38" nType="PortionType::Para" nHeight="373" nWidth="6977" Portion="1. Open a terminal window and install "/>
+       <LineBreak nWidth="6977" Line="1. Open a terminal window and install "/>
+       <Text nLength="9" nType="PortionType::Lay" nHeight="373" nWidth="2066" Portion="Homebrew:"/>
+       <LineBreak nWidth="2066" Line="Homebrew:"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f739ce0" id="33" symbol="11SwTextFrame" next="34" prev="32" upper="141" txtNodeIndex="35" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="23051" width="8640" height="1320" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="1080"/>
+       </infos>
+/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&quot;       <Text nLength="27" nType="PortionType::Para" nHeight="280" nWidth="3022" Portion="/bin/bash -c &quot;$(curl -fsSL "/>
+       <LineBreak nWidth="3022" Line="/bin/bash -c &quot;$(curl -fsSL "/>
+       <Text nLength="69" nType="PortionType::Lay" nHeight="280" nWidth="8538" Portion="https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"/>
+       <LineBreak nWidth="8538" Line="https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"/>
+       <Text nLength="1" nType="PortionType::Lay" nHeight="280" nWidth="110" Portion="&quot;"/>
+       <LineBreak nWidth="110" Line="&quot;"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8bcd0f80" id="34" symbol="11SwTextFrame" next="35" prev="33" upper="141" txtNodeIndex="36" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="24371" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="476"/>
+       </infos>
+Click through any prompts that may appear.       <Text nLength="42" nType="PortionType::Para" nHeight="326" nWidth="6246" Portion="Click through any prompts that may appear."/>
+       <LineBreak nWidth="6246" Line="Click through any prompts that may appear."/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eee3a90" id="35" symbol="11SwTextFrame" next="36" prev="34" upper="141" txtNodeIndex="37" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="24847" width="8640" height="716" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="476"/>
+       </infos>
+2. Change Homebrew directory ownership:       <Text nLength="39" nType="PortionType::Para" nHeight="373" nWidth="7725" Portion="2. Change Homebrew directory ownership:"/>
+       <LineBreak nWidth="7725" Line="2. Change Homebrew directory ownership:"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e71a300" id="36" symbol="11SwTextFrame" next="37" prev="35" upper="141" txtNodeIndex="38" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="25563" width="8640" height="600" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="360"/>
+       </infos>
+sudo chown -h -R $(whoami) /usr/local/*       <Text nLength="39" nType="PortionType::Para" nHeight="280" nWidth="4810" Portion="sudo chown -h -R $(whoami) /usr/local/*"/>
+       <LineBreak nWidth="4810" Line="sudo chown -h -R $(whoami) /usr/local/*"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb6e450" id="37" symbol="11SwTextFrame" next="38" prev="36" upper="141" txtNodeIndex="39" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="26163" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="476"/>
+       </infos>
+NOTE: You will be prompted for your device password       <Text nLength="5" nType="PortionType::Text" nHeight="326" nWidth="967" Portion="NOTE:"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="45" nType="PortionType::Text" nHeight="326" nWidth="6598" Portion="You will be prompted for your device password"/>
+       <LineBreak nWidth="7654" Line="NOTE:&#xA0;You will be prompted for your device password"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e8c3bc0" id="38" symbol="11SwTextFrame" next="39" prev="37" upper="141" txtNodeIndex="40" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="26639" width="8640" height="952" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="952"/>
+       </infos>
+3. Use Homebrew to install additional required software packages:       <Text nLength="47" nType="PortionType::Para" nHeight="373" nWidth="8583" Portion="3. Use Homebrew to install additional required "/>
+       <LineBreak nWidth="8583" Line="3. Use Homebrew to install additional required "/>
+       <Text nLength="18" nType="PortionType::Lay" nHeight="373" nWidth="3528" Portion="software packages:"/>
+       <LineBreak nWidth="3528" Line="software packages:"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ed6ca50" id="39" symbol="11SwTextFrame" next="40" prev="38" upper="141" txtNodeIndex="41" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="27591" width="8640" height="960" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="720"/>
+       </infos>
+brew install coreutils git git-lfs python@3.7 awscli terraform gawk gnu-sed wget curl bazel jq       <Text nLength="72" nType="PortionType::Para" nHeight="280" nWidth="8542" Portion="brew install coreutils git git-lfs python@3.7 awscli terraform gawk gnu-"/>
+       <LineBreak nWidth="8542" Line="brew install coreutils git git-lfs python@3.7 awscli terraform gawk gnu-"/>
+       <Text nLength="22" nType="PortionType::Lay" nHeight="280" nWidth="2629" Portion="sed wget curl bazel jq"/>
+       <LineBreak nWidth="2629" Line="sed wget curl bazel jq"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb6af10" id="40" symbol="11SwTextFrame" prev="39" upper="141" txtNodeIndex="42" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="28551" width="8640" height="1904" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="1904"/>
+       </infos>
+NOTE: For development in any language at GRAIL, please refer to the language specific guide for installing the toolchain that will work with our codebase. There may be additional steps required.       <Text nLength="5" nType="PortionType::Text" nHeight="326" nWidth="967" Portion="NOTE:"/>
+       <Special nLength="1" nType="PortionType::Blank" rText="&#xA0;"/>
+       <Text nLength="49" nType="PortionType::Text" nHeight="326" nWidth="7210" Portion="For development in any language at GRAIL, please "/>
+       <LineBreak nWidth="8266" Line="NOTE:&#xA0;For development in any language at GRAIL, please "/>
+       <Text nLength="56" nType="PortionType::Lay" nHeight="326" nWidth="7476" Portion="refer to the language specific guide for installing the "/>
+       <LineBreak nWidth="7476" Line="refer to the language specific guide for installing the "/>
+       <Text nLength="57" nType="PortionType::Lay" nHeight="326" nWidth="8146" Portion="toolchain that will work with our codebase. There may be "/>
+       <LineBreak nWidth="8146" Line="toolchain that will work with our codebase. There may be "/>
+       <Text nLength="26" nType="PortionType::Lay" nHeight="326" nWidth="3595" Portion="additional steps required."/>
+       <LineBreak nWidth="3595" Line="additional steps required."/>
+       <Finish/>
+      </txt>
+     </cell>
+    </row>
+   </tab>
+  </body>
+ </page>
+ <page ptr="0x559d8eb23db0" id="144" symbol="11SwPageFrame" next="149" prev="142" upper="4" lower="145">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="6880" top="32532" width="12240" height="15840" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1440" top="1440" width="9360" height="12960"/>
+  </infos>
+  <body ptr="0x559d8f7a0000" id="145" symbol="11SwBodyFrame" upper="144" lower="146">
+   <infos>
+    <bounds left="8320" top="33972" width="9360" height="12960" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9360" height="12960"/>
+   </infos>
+   <tab ptr="0x559d92016fd0" id="146" symbol="10SwTabFrame" upper="145" lower="147" follow="151" precede="139">
+    <infos>
+     <bounds left="8320" top="33972" width="9360" height="12930" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="-217" top="0" width="8748" height="12930"/>
+    </infos>
+    <row ptr="0x559d91fbd840" id="147" symbol="10SwRowFrame" upper="146" lower="148">
+     <infos>
+      <bounds left="8103" top="33972" width="8748" height="12930" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="8748" height="12930"/>
+     </infos>
+     <cell ptr="0x559d90b09b60" id="148" symbol="11SwCellFrame" upper="147" lower="41" follow="153" precede="141" rowspan="1">
+      <infos>
+       <bounds left="8103" top="33972" width="8748" height="12930" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="0" width="8640" height="12930"/>
+      </infos>
+      <txt ptr="0x559d8ed90a30" id="41" symbol="11SwTextFrame" next="42" upper="148" txtNodeIndex="43" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="33972" width="8640" height="559" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="559"/>
+       </infos>
+Install Arcanist       <Text nLength="16" nType="PortionType::Para" nHeight="559" nWidth="4093" Portion="Install Arcanist"/>
+       <LineBreak nWidth="4093" Line="Install Arcanist"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e8e0b50" id="42" symbol="11SwTextFrame" next="43" prev="41" upper="148" txtNodeIndex="44" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="34531" width="8640" height="836" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="360" width="8640" height="476"/>
+       </infos>
+Arcanist provides:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8efdd850" id="43" symbol="11SwTextFrame" next="44" prev="42" upper="148" txtNodeIndex="45" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="35367" width="8640" height="1192" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="240" width="9360" height="952"/>
+       </infos>
+Command-line access to many Phabricator tools like Differential, Files, and Paste.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eeafa50" id="44" symbol="11SwTextFrame" next="45" prev="43" upper="148" txtNodeIndex="46" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="36559" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+Integrates with static analysis (&quot;lint&quot;) and unit tests.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb16490" id="45" symbol="11SwTextFrame" next="46" prev="44" upper="148" txtNodeIndex="47" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="37035" width="8640" height="952" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="952"/>
+       </infos>
+Manages common workflows like getting changes into Differential for review.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ef11c00" id="46" symbol="11SwTextFrame" next="47" prev="45" upper="148" txtNodeIndex="48" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="37987" width="8640" height="1428" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="1428"/>
+       </infos>
+For more information see https://secure.phabricator.com/book/phabricator/article/arcanist/       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f178ca0" id="47" symbol="11SwTextFrame" next="48" prev="46" upper="148" txtNodeIndex="49" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="39415" width="8640" height="1192" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="952"/>
+       </infos>
+1. Create a directory named tools to download Arcanist:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f271980" id="48" symbol="11SwTextFrame" next="49" prev="47" upper="148" txtNodeIndex="50" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="40607" width="8640" height="600" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="360"/>
+       </infos>
+mkdir ~/tools       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ef916a0" id="49" symbol="11SwTextFrame" next="50" prev="48" upper="148" txtNodeIndex="51" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="41207" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+cd ~/tools       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb80aa0" id="50" symbol="11SwTextFrame" next="51" prev="49" upper="148" txtNodeIndex="52" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="41567" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+git clone https://github.com/phacility/arcanist.git       <Finish/>
+      </txt>
+      <txt ptr="0x559d9214c6c0" id="51" symbol="11SwTextFrame" next="52" prev="50" upper="148" txtNodeIndex="53" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="41927" width="8640" height="952" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="952"/>
+       </infos>
+These tools are required to push code to GRAIL code repositories.       <Finish/>
+      </txt>
+      <txt ptr="0x559d90b1b110" id="52" symbol="11SwTextFrame" next="53" prev="51" upper="148" txtNodeIndex="54" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="42879" width="8640" height="716" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="476"/>
+       </infos>
+2. Update your path to include Arcanist:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f7a14d0" id="53" symbol="11SwTextFrame" next="54" prev="52" upper="148" txtNodeIndex="55" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="43595" width="8640" height="600" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="360"/>
+       </infos>
+echo 'export PATH=&quot;$PATH:$HOME/tools/arcanist/bin/&quot;' &gt;&gt; ~/.bashrc        <Finish/>
+      </txt>
+      <txt ptr="0x559d8f26d2d0" id="54" symbol="11SwTextFrame" next="55" prev="53" upper="148" txtNodeIndex="56" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="44195" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+echo 'export PATH=&quot;$PATH:$HOME/tools/arcanist/bin/&quot;' &gt;&gt; ~/.zshrc       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ee71400" id="55" symbol="11SwTextFrame" next="56" prev="54" upper="148" txtNodeIndex="57" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="44555" width="8640" height="1428" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="1428"/>
+       </infos>
+NOTE: A previous version of these instructions used .bash_profile and .zprofile instead of the current files.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ed92ad0" id="56" symbol="11SwTextFrame" prev="55" upper="148" txtNodeIndex="58" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="45983" width="8640" height="919" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="559"/>
+       </infos>
+Generate a SSH key pair       <Finish/>
+      </txt>
+     </cell>
+    </row>
+   </tab>
+  </body>
+ </page>
+ <page ptr="0x559d8ebbac70" id="149" symbol="11SwPageFrame" next="154" prev="144" upper="4" lower="150">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="6880" top="48656" width="12240" height="15840" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1440" top="1440" width="9360" height="12960"/>
+  </infos>
+  <body ptr="0x559d8f31be60" id="150" symbol="11SwBodyFrame" upper="149" lower="151">
+   <infos>
+    <bounds left="8320" top="50096" width="9360" height="12960" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9360" height="12960"/>
+   </infos>
+   <tab ptr="0x559d8f0186f0" id="151" symbol="10SwTabFrame" upper="150" lower="152" follow="156" precede="146">
+    <infos>
+     <bounds left="8320" top="50096" width="9360" height="12920" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="-217" top="0" width="8748" height="12920"/>
+    </infos>
+    <row ptr="0x559d8ba99d00" id="152" symbol="10SwRowFrame" upper="151" lower="153">
+     <infos>
+      <bounds left="8103" top="50096" width="8748" height="12920" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="8748" height="12920"/>
+     </infos>
+     <cell ptr="0x559d8f5c0160" id="153" symbol="11SwCellFrame" upper="152" lower="57" follow="158" precede="148" rowspan="1">
+      <infos>
+       <bounds left="8103" top="50096" width="8748" height="12920" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="0" width="8640" height="12920"/>
+      </infos>
+      <txt ptr="0x559d8ed0ead0" id="57" symbol="11SwTextFrame" next="58" upper="153" txtNodeIndex="59" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="50096" width="8640" height="1428" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="1428"/>
+       </infos>
+If you already have an SSH key pair, continue on to the Phabricator Setup section. If you don not have an existing SSH key pair, follow the instructions below:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ee6d310" id="58" symbol="11SwTextFrame" next="59" prev="57" upper="153" txtNodeIndex="60" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="51524" width="8640" height="1192" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="952"/>
+       </infos>
+1. Run ssh-keygen in terminal to generate a key pair.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f2cbc10" id="59" symbol="11SwTextFrame" next="60" prev="58" upper="153" txtNodeIndex="61" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="52716" width="8640" height="2144" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="1904"/>
+       </infos>
+Respond to each question by pressing Enter. You will be prompted to create a password, this is optional. Creating a password means you will need to enter it for each connection. You are not required to enter a password.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f5b0e30" id="60" symbol="11SwTextFrame" next="61" prev="59" upper="153" txtNodeIndex="62" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="54860" width="8640" height="716" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="476"/>
+       </infos>
+Example output from ssh-keygen       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f5b8150" id="61" symbol="11SwTextFrame" next="62" prev="60" upper="153" txtNodeIndex="63" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="55576" width="8640" height="600" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="360"/>
+       </infos>
+$ ssh-keygen       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e79c4b0" id="62" symbol="11SwTextFrame" next="63" prev="61" upper="153" txtNodeIndex="64" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="56176" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+Generating public/private rsa key pair.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb6fe10" id="63" symbol="11SwTextFrame" next="64" prev="62" upper="153" txtNodeIndex="65" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="56536" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+Enter file in which to save the key (/Users/fdetal/.ssh/id_rsa):       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f70fcf0" id="64" symbol="11SwTextFrame" next="65" prev="63" upper="153" txtNodeIndex="66" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="56896" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+Enter passphrase (empty for no passphrase):       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e8bc770" id="65" symbol="11SwTextFrame" next="66" prev="64" upper="153" txtNodeIndex="67" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="57256" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+Enter same passphrase again:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e8c0c80" id="66" symbol="11SwTextFrame" next="67" prev="65" upper="153" txtNodeIndex="68" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="57616" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+Your identification has been saved in id_rsa       <Finish/>
+      </txt>
+      <txt ptr="0x559d8b980a50" id="67" symbol="11SwTextFrame" next="68" prev="66" upper="153" txtNodeIndex="69" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="57976" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+Your public key has been saved in id_rsa.pub       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f14cc00" id="68" symbol="11SwTextFrame" next="69" prev="67" upper="153" txtNodeIndex="70" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="58336" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+The key fingerprint is:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ec8a9e0" id="69" symbol="11SwTextFrame" next="70" prev="68" upper="153" txtNodeIndex="71" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="58696" width="8640" height="720" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="720"/>
+       </infos>
+SHA256:0000000000000000000X88keJIxBaZtv4zUjFz5r4y0 fdetal@GB0000000       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eec8220" id="70" symbol="11SwTextFrame" next="71" prev="69" upper="153" txtNodeIndex="72" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="59416" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+The key's randomart image is:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f04e8d0" id="71" symbol="11SwTextFrame" next="72" prev="70" upper="153" txtNodeIndex="73" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="59776" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
++---[RSA 3072]----+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f25d690" id="72" symbol="11SwTextFrame" next="73" prev="71" upper="153" txtNodeIndex="74" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="60136" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+|xxo.x*+ .                |       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ef2b240" id="73" symbol="11SwTextFrame" next="74" prev="72" upper="153" txtNodeIndex="75" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="60496" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+|xx *jx.B .              |       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ee2e6c0" id="74" symbol="11SwTextFrame" next="75" prev="73" upper="153" txtNodeIndex="76" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="60856" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+|+x*.xo+ =                |       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eff8810" id="75" symbol="11SwTextFrame" next="76" prev="74" upper="153" txtNodeIndex="77" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="61216" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+| x Bx+ +.o              |       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f5d08c0" id="76" symbol="11SwTextFrame" next="77" prev="75" upper="153" txtNodeIndex="78" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="61576" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+|    + o...S.              |       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ea61560" id="77" symbol="11SwTextFrame" next="78" prev="76" upper="153" txtNodeIndex="79" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="61936" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+|      .    = B                |       <Finish/>
+      </txt>
+      <txt ptr="0x559d8b4f0730" id="78" symbol="11SwTextFrame" next="79" prev="77" upper="153" txtNodeIndex="80" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="62296" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+|          o = =              |       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ecad260" id="79" symbol="11SwTextFrame" prev="78" upper="153" txtNodeIndex="81" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="62656" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+|            . E.              |       <Finish/>
+      </txt>
+     </cell>
+    </row>
+   </tab>
+  </body>
+ </page>
+ <page ptr="0x559d8f199210" id="154" symbol="11SwPageFrame" next="159" prev="149" upper="4" lower="155">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="6880" top="64780" width="12240" height="15840" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1440" top="1440" width="9360" height="12960"/>
+  </infos>
+  <body ptr="0x559d92e7ca00" id="155" symbol="11SwBodyFrame" upper="154" lower="156">
+   <infos>
+    <bounds left="8320" top="66220" width="9360" height="12960" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9360" height="12960"/>
+   </infos>
+   <tab ptr="0x559d92e5c3f0" id="156" symbol="10SwTabFrame" upper="155" lower="157" follow="161" precede="151">
+    <infos>
+     <bounds left="8320" top="66220" width="9360" height="12487" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="-217" top="0" width="8748" height="12487"/>
+    </infos>
+    <row ptr="0x559d92e58a00" id="157" symbol="10SwRowFrame" upper="156" lower="158">
+     <infos>
+      <bounds left="8103" top="66220" width="8748" height="12487" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="8748" height="12487"/>
+     </infos>
+     <cell ptr="0x559d92e4de00" id="158" symbol="11SwCellFrame" upper="157" lower="80" follow="163" precede="153" rowspan="1">
+      <infos>
+       <bounds left="8103" top="66220" width="8748" height="12487" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="0" width="8640" height="12487"/>
+      </infos>
+      <txt ptr="0x559d90b8fb80" id="80" symbol="11SwTextFrame" next="81" upper="158" txtNodeIndex="82" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="66220" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+|              o.o.            |       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f20aa80" id="81" symbol="11SwTextFrame" next="82" prev="80" upper="158" txtNodeIndex="83" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="66580" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
++----[SHA256]-----+       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ed842a0" id="82" symbol="11SwTextFrame" next="83" prev="81" upper="158" txtNodeIndex="84" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="66940" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="476"/>
+       </infos>
+2. A key pair appears in the ~/.ssh folder.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ec7e000" id="83" symbol="11SwTextFrame" next="84" prev="82" upper="158" txtNodeIndex="85" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="67416" width="8640" height="716" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="240" width="9360" height="476"/>
+       </infos>
+The private key in ~/.ssh/id_rsa       <Finish/>
+      </txt>
+      <txt ptr="0x559d901e6b00" id="84" symbol="11SwTextFrame" next="85" prev="83" upper="158" txtNodeIndex="86" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="68132" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+the public key in ~/.ssh/id_rsa.pub       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f25bc10" id="85" symbol="11SwTextFrame" next="86" prev="84" upper="158" txtNodeIndex="87" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="68608" width="8640" height="1428" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="1428"/>
+       </infos>
+The same public key may be used on multiple hosts and services; you can re-use the same public key for other SSH connections. Setup Phabricator in the next section.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb98510" id="86" symbol="11SwTextFrame" next="87" prev="85" upper="158" txtNodeIndex="88" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="70036" width="8640" height="799" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="559"/>
+       </infos>
+Setup Phabricator       <Finish/>
+      </txt>
+      <txt ptr="0x559d8fa21680" id="87" symbol="11SwTextFrame" next="88" prev="86" upper="158" txtNodeIndex="89" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="70835" width="8640" height="1312" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="360" width="8640" height="952"/>
+       </infos>
+Once you have an SSH key pair, you are now ready to upload your public key to Phabricator.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb86000" id="88" symbol="11SwTextFrame" next="89" prev="87" upper="158" txtNodeIndex="90" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="72147" width="8640" height="1192" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="952"/>
+       </infos>
+1. Go to https://phabricator.grailbio.com/settings/       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb1e770" id="89" symbol="11SwTextFrame" next="90" prev="88" upper="158" txtNodeIndex="91" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="73339" width="8640" height="1192" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="952"/>
+       </infos>
+Click SSH Public Keys item on the left (AUTHENTICATION → SSH Public Keys).       <Finish/>
+      </txt>
+      <txt ptr="0x559d9286ac00" id="90" symbol="11SwTextFrame" next="91" prev="89" upper="158" txtNodeIndex="92" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="74531" width="8640" height="716" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="476"/>
+       </infos>
+2. Copy public key to your clipboard:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f7364e0" id="91" symbol="11SwTextFrame" next="92" prev="90" upper="158" txtNodeIndex="93" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="75247" width="8640" height="716" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="476"/>
+       </infos>
+Back in the terminal, run:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb0ff40" id="92" symbol="11SwTextFrame" next="93" prev="91" upper="158" txtNodeIndex="94" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="75963" width="8640" height="600" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="360"/>
+       </infos>
+pbcopy &lt; ~/.ssh/id_rsa.pub       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e718eb0" id="93" symbol="11SwTextFrame" next="94" prev="92" upper="158" txtNodeIndex="95" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="76563" width="8640" height="952" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="952"/>
+       </infos>
+WARNING: Public keys end in .pub. Do not share your private key.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f6c7ae0" id="94" symbol="11SwTextFrame" prev="93" upper="158" txtNodeIndex="96" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="77515" width="8640" height="1192" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="952"/>
+       </infos>
+3. Go back to Phabricator and click  SSH Key Actions    Upload Public Key.       <Finish/>
+      </txt>
+     </cell>
+    </row>
+   </tab>
+  </body>
+ </page>
+ <page ptr="0x559d92e8c410" id="159" symbol="11SwPageFrame" next="164" prev="154" upper="4" lower="160">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="6880" top="80904" width="12240" height="15840" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1440" top="1440" width="9360" height="12960"/>
+  </infos>
+  <body ptr="0x559d8ec5ab30" id="160" symbol="11SwBodyFrame" upper="159" lower="161">
+   <infos>
+    <bounds left="8320" top="82344" width="9360" height="12960" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9360" height="12960"/>
+   </infos>
+   <tab ptr="0x559d8f79bfe0" id="161" symbol="10SwTabFrame" upper="160" lower="162" follow="166" precede="156">
+    <infos>
+     <bounds left="8320" top="82344" width="9360" height="12619" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="-217" top="0" width="8748" height="12619"/>
+    </infos>
+    <row ptr="0x559d909e97f0" id="162" symbol="10SwRowFrame" upper="161" lower="163">
+     <infos>
+      <bounds left="8103" top="82344" width="8748" height="12619" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="8748" height="12619"/>
+     </infos>
+     <cell ptr="0x559d909f9710" id="163" symbol="11SwCellFrame" upper="162" lower="95" follow="168" precede="158" rowspan="1">
+      <infos>
+       <bounds left="8103" top="82344" width="8748" height="12619" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="0" width="8640" height="12619"/>
+      </infos>
+      <txt ptr="0x559d8f5e8710" id="95" symbol="11SwTextFrame" next="96" upper="163" txtNodeIndex="97" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="82344" width="8640" height="952" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="952"/>
+       </infos>
+A window appears with fields for you to name the key paste the contents your clipboard.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f820c30" id="96" symbol="11SwTextFrame" next="97" prev="95" upper="163" txtNodeIndex="98" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="83296" width="8640" height="1192" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="952"/>
+       </infos>
+4. Create a name for the key; the example key will use the name id_rsa.pub.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f713b10" id="97" symbol="11SwTextFrame" next="98" prev="96" upper="163" txtNodeIndex="99" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="84488" width="8640" height="1668" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="1428"/>
+       </infos>
+5. Paste the public from clipboard into the Public Key field: Select the field and press ⌘+V to paste and click Upload Public Key.       <Finish/>
+      </txt>
+      <txt ptr="0x559d90b89470" id="98" symbol="11SwTextFrame" next="99" prev="97" upper="163" txtNodeIndex="100" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="86156" width="8640" height="799" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="559"/>
+       </infos>
+Update Git user information       <Finish/>
+      </txt>
+      <txt ptr="0x559d90b113a0" id="99" symbol="11SwTextFrame" next="100" prev="98" upper="163" txtNodeIndex="101" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="86955" width="8640" height="1788" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="360" width="8640" height="1428"/>
+       </infos>
+Configure Git settings to allow you clone and push changes to GRAIL code repositories. Git was installed earlier in this document using Homebrew.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f7dae00" id="100" symbol="11SwTextFrame" next="101" prev="99" upper="163" txtNodeIndex="102" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="88743" width="8640" height="1192" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="952"/>
+       </infos>
+Edit and use the following commands according to the comments on each line:       <Finish/>
+      </txt>
+      <txt ptr="0x559d909fb9f0" id="101" symbol="11SwTextFrame" next="102" prev="100" upper="163" txtNodeIndex="103" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="89935" width="8640" height="960" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="720"/>
+       </infos>
+git config --global user.email &quot;USERNAME@grailbio.com&quot;    # Replace USERNAME with the first part of your grail email address.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8faa80b0" id="102" symbol="11SwTextFrame" next="103" prev="101" upper="163" txtNodeIndex="104" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="90895" width="8640" height="720" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="720"/>
+       </infos>
+git config --global user.name &quot;FULLNAME&quot; # Replace FULLNAME with your full name.       <Finish/>
+      </txt>
+      <txt ptr="0x559d90b8f650" id="103" symbol="11SwTextFrame" next="104" prev="102" upper="163" txtNodeIndex="105" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="91615" width="8640" height="720" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="720"/>
+       </infos>
+git config --global pull.rebase true # Configures git to use rebase instead of merge strategy by default when pulling.       <Finish/>
+      </txt>
+      <txt ptr="0x559d90a433d0" id="104" symbol="11SwTextFrame" next="105" prev="103" upper="163" txtNodeIndex="106" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="92335" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="476"/>
+       </infos>
+Example       <Finish/>
+      </txt>
+      <txt ptr="0x559d90b88640" id="105" symbol="11SwTextFrame" next="106" prev="104" upper="163" txtNodeIndex="107" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="92811" width="8640" height="1192" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="952"/>
+       </infos>
+If your name is Fulano De Tal and email is fdetal@grailbio.com, you would update your config like this:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ed8e800" id="106" symbol="11SwTextFrame" next="107" prev="105" upper="163" txtNodeIndex="108" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="94003" width="8640" height="600" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="360"/>
+       </infos>
+$ git config --global user.email &quot;fdetal@grailbio.com&quot;        <Finish/>
+      </txt>
+      <txt ptr="0x559d909ec420" id="107" symbol="11SwTextFrame" prev="106" upper="163" txtNodeIndex="109" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="94603" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+$ git config --global user.name &quot;Fulano De Tal&quot;        <Finish/>
+      </txt>
+     </cell>
+    </row>
+   </tab>
+  </body>
+ </page>
+ <page ptr="0x559d8ed522e0" id="164" symbol="11SwPageFrame" next="169" prev="159" upper="4" lower="165">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="6880" top="97028" width="12240" height="15840" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1440" top="1440" width="9360" height="12960"/>
+  </infos>
+  <body ptr="0x559d8f14e6c0" id="165" symbol="11SwBodyFrame" upper="164" lower="166">
+   <infos>
+    <bounds left="8320" top="98468" width="9360" height="12960" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9360" height="12960"/>
+   </infos>
+   <tab ptr="0x559d8f17b6f0" id="166" symbol="10SwTabFrame" upper="165" lower="167" follow="171" precede="161">
+    <infos>
+     <bounds left="8320" top="98468" width="9360" height="12551" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="-217" top="0" width="8748" height="12551"/>
+    </infos>
+    <row ptr="0x559d92ebe2e0" id="167" symbol="10SwRowFrame" upper="166" lower="168">
+     <infos>
+      <bounds left="8103" top="98468" width="8748" height="12551" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="8748" height="12551"/>
+     </infos>
+     <cell ptr="0x559d92e17bc0" id="168" symbol="11SwCellFrame" upper="167" lower="108" follow="173" precede="163" rowspan="1">
+      <infos>
+       <bounds left="8103" top="98468" width="8748" height="12551" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="0" width="8640" height="12551"/>
+      </infos>
+      <txt ptr="0x559d8fec4390" id="108" symbol="11SwTextFrame" next="109" upper="168" txtNodeIndex="110" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="98468" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+$ git config --global pull.rebase true        <Finish/>
+      </txt>
+      <txt ptr="0x559d8faa83b0" id="109" symbol="11SwTextFrame" next="110" prev="108" upper="168" txtNodeIndex="111" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="98828" width="8640" height="559" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="559"/>
+       </infos>
+Clone the GRAIL mono repo       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f76c4b0" id="110" symbol="11SwTextFrame" next="111" prev="109" upper="168" txtNodeIndex="112" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="99387" width="8640" height="1312" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="360" width="8640" height="952"/>
+       </infos>
+NOTE: You will not be able to pull the repo if you're not connected to the VPN.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f5e04b0" id="111" symbol="11SwTextFrame" next="112" prev="110" upper="168" txtNodeIndex="113" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="100699" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="476"/>
+       </infos>
+From your home directory, Run the following commands:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e718690" id="112" symbol="11SwTextFrame" next="113" prev="111" upper="168" txtNodeIndex="114" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="101175" width="8640" height="600" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="360"/>
+       </infos>
+cd ~       <Finish/>
+      </txt>
+      <txt ptr="0x559d8e94efd0" id="113" symbol="11SwTextFrame" next="114" prev="112" upper="168" txtNodeIndex="115" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="101775" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+GIT_LFS_SKIP_SMUDGE=1 git clone --depth=1 --single-branch \       <Finish/>
+      </txt>
+      <txt ptr="0x559d90b89830" id="114" symbol="11SwTextFrame" next="115" prev="113" upper="168" txtNodeIndex="116" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="102135" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+ssh://git@phabricator.grailbio.com:2222/diffusion/GRAIL/grail.git       <Finish/>
+      </txt>
+      <txt ptr="0x559d90b8dc50" id="115" symbol="11SwTextFrame" next="116" prev="114" upper="168" txtNodeIndex="117" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="102495" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+cd grail       <Finish/>
+      </txt>
+      <txt ptr="0x559d90b89290" id="116" symbol="11SwTextFrame" next="117" prev="115" upper="168" txtNodeIndex="118" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="102855" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+git lfs install --skip-smudge --local       <Finish/>
+      </txt>
+      <txt ptr="0x559d8fefd640" id="117" symbol="11SwTextFrame" next="118" prev="116" upper="168" txtNodeIndex="119" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="103215" width="8640" height="1118" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="1118"/>
+       </infos>
+Prepare to Push Changes to GRAIL Code Repositories       <Finish/>
+      </txt>
+      <txt ptr="0x559d90b88130" id="118" symbol="11SwTextFrame" next="119" prev="117" upper="168" txtNodeIndex="120" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="104333" width="8640" height="1788" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="360" width="8640" height="1428"/>
+       </infos>
+NOTE: Ensure that your ~/.zshrc is updated to include Arcanist. echo 'export PATH=&quot;$PATH:$HOME/tools/arcanist/bin/&quot;' &gt;&gt; ~/.zshrc       <Finish/>
+      </txt>
+      <txt ptr="0x559d90b87cb0" id="119" symbol="11SwTextFrame" next="120" prev="118" upper="168" txtNodeIndex="121" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="106121" width="8640" height="512" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="512"/>
+       </infos>
+Set Default Editor for Arc and Git       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f79d600" id="120" symbol="11SwTextFrame" next="121" prev="119" upper="168" txtNodeIndex="122" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="106633" width="8640" height="2234" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="330" width="8640" height="1904"/>
+       </infos>
+Arc uses the editor ed by default. This can be changed to your preferred editor. Run the following commands but replace $PATH_TO_EDITOR with the path your preferred editor.       <Finish/>
+      </txt>
+      <txt ptr="0x559d9087cef0" id="121" symbol="11SwTextFrame" next="122" prev="120" upper="168" txtNodeIndex="123" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="108867" width="8640" height="600" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="360"/>
+       </infos>
+arc set-config editor $PATH_TO_EDITOR       <Finish/>
+      </txt>
+      <txt ptr="0x559d90a4fd80" id="122" symbol="11SwTextFrame" next="123" prev="121" upper="168" txtNodeIndex="124" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="109467" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+git config --global core.editor $PATH_TO_EDITOR       <Finish/>
+      </txt>
+      <txt ptr="0x559d90a4f970" id="123" symbol="11SwTextFrame" next="124" prev="122" upper="168" txtNodeIndex="125" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="109827" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="476"/>
+       </infos>
+Example       <Finish/>
+      </txt>
+      <txt ptr="0x559d91488300" id="124" symbol="11SwTextFrame" prev="123" upper="168" txtNodeIndex="126" WritingMode="Horizontal" follow="174">
+       <infos>
+        <bounds left="8211" top="110303" width="8640" height="716" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="476"/>
+       </infos>
+If your editor of choice is Vim installed via Homebrew, you would run the following:       <Finish/>
+      </txt>
+     </cell>
+    </row>
+   </tab>
+  </body>
+ </page>
+ <page ptr="0x559d8ee04700" id="169" symbol="11SwPageFrame" prev="164" upper="4" lower="170">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="6880" top="113152" width="12240" height="15840" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1440" top="1440" width="9360" height="12960"/>
+  </infos>
+  <body ptr="0x559d92e7dcf0" id="170" symbol="11SwBodyFrame" upper="169" lower="171">
+   <infos>
+    <bounds left="8320" top="114592" width="9360" height="12960" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="9360" height="12960"/>
+   </infos>
+   <tab ptr="0x559d8eba3cf0" id="171" symbol="10SwTabFrame" next="138" upper="170" lower="172" precede="166">
+    <infos>
+     <bounds left="8320" top="114592" width="9360" height="12245" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="-217" top="0" width="8748" height="12245"/>
+    </infos>
+    <row ptr="0x559d8efaaa10" id="172" symbol="10SwRowFrame" upper="171" lower="173">
+     <infos>
+      <bounds left="8103" top="114592" width="8748" height="12245" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+      <prtBounds left="0" top="0" width="8748" height="12245"/>
+     </infos>
+     <cell ptr="0x559d92eb3800" id="173" symbol="11SwCellFrame" upper="172" lower="174" precede="168" rowspan="1">
+      <infos>
+       <bounds left="8103" top="114592" width="8748" height="12245" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="108" top="0" width="8640" height="12245"/>
+      </infos>
+      <txt ptr="0x559d8faa8d20" id="174" symbol="11SwTextFrame" next="125" upper="173" txtNodeIndex="126" WritingMode="Horizontal" precede="124">
+       <infos>
+        <bounds left="8211" top="114592" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="476"/>
+       </infos>
+If your editor of choice is Vim installed via Homebrew, you would run the following:       <Finish/>
+      </txt>
+      <txt ptr="0x559d91b02b90" id="125" symbol="11SwTextFrame" next="126" prev="174" upper="173" txtNodeIndex="127" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="115068" width="8640" height="600" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="360"/>
+       </infos>
+$ arc set-config editor /usr/local/Cellar/vim/8.2.0250_1/bin/vim       <Finish/>
+      </txt>
+      <txt ptr="0x559d90a4f560" id="126" symbol="11SwTextFrame" next="127" prev="125" upper="173" txtNodeIndex="128" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="115668" width="8640" height="360" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="360"/>
+       </infos>
+$ git config --global core.editor /usr/local/Cellar/vim/8.2.0250_1/bin/vim        <Finish/>
+      </txt>
+      <txt ptr="0x559d8fe928d0" id="127" symbol="11SwTextFrame" next="128" prev="126" upper="173" txtNodeIndex="129" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="116028" width="8640" height="512" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="8640" height="512"/>
+       </infos>
+Install Arc Certificate       <Finish/>
+      </txt>
+      <txt ptr="0x559d8ff357e0" id="128" symbol="11SwTextFrame" next="129" prev="127" upper="173" txtNodeIndex="130" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="116540" width="8640" height="2710" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="330" width="8640" height="2380"/>
+       </infos>
+The first time you run arc diff or arc patch to push changes to GRAIL code repositories, arc may complain about verifying the centralized Phabricator server. If this occurs, Run arc install-certificate according to the onscreen instructions, then run the command again.       <Finish/>
+      </txt>
+      <txt ptr="0x559d8fd732c0" id="129" symbol="11SwTextFrame" next="130" prev="128" upper="173" txtNodeIndex="131" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="119250" width="8640" height="799" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="240" width="8640" height="559"/>
+       </infos>
+Next Steps       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb0b880" id="130" symbol="11SwTextFrame" next="131" prev="129" upper="173" txtNodeIndex="132" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="120049" width="8640" height="2740" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="360" width="8640" height="2380"/>
+       </infos>
+Now that you have completed this guide, you are now ready to submit code to GRAIL repositories with Arcanist. In addition, you are incidently ready to use many of the basic engineering resources. After completing this guide, find team specific onboarding information for further instruction:       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eeafbb0" id="131" symbol="11SwTextFrame" next="132" prev="130" upper="173" txtNodeIndex="133" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="122789" width="8640" height="716" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="240" width="9360" height="476"/>
+       </infos>
+Setup Extended GRAIL Dev Environment       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f6072f0" id="132" symbol="11SwTextFrame" next="133" prev="131" upper="173" txtNodeIndex="134" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="123505" width="8640" height="952" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="952"/>
+       </infos>
+Onboarding checklist for access bioinformaticians, statisticians, data science, machine learning       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f7c7200" id="133" symbol="11SwTextFrame" next="134" prev="132" upper="173" txtNodeIndex="135" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="124457" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+Code Management       <Finish/>
+      </txt>
+      <txt ptr="0x559d8eb9b000" id="134" symbol="11SwTextFrame" next="135" prev="133" upper="173" txtNodeIndex="136" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="124933" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+using Git and Phabricator       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f2c10a0" id="135" symbol="11SwTextFrame" next="136" prev="134" upper="173" txtNodeIndex="137" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="125409" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+Go @ GRAIL       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f2a42c0" id="136" symbol="11SwTextFrame" next="137" prev="135" upper="173" txtNodeIndex="138" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="125885" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+JavaScript/ES6+ Coding Standards       <Finish/>
+      </txt>
+      <txt ptr="0x559d8f1d9000" id="137" symbol="11SwTextFrame" prev="136" upper="173" txtNodeIndex="139" WritingMode="Horizontal">
+       <infos>
+        <bounds left="8211" top="126361" width="8640" height="476" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+        <prtBounds left="-720" top="0" width="9360" height="476"/>
+       </infos>
+Infra Team Onboarding       <Finish/>
+      </txt>
+     </cell>
+    </row>
+   </tab>
+   <txt ptr="0x559d8e817df0" id="138" symbol="11SwTextFrame" prev="171" upper="170" txtNodeIndex="142" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8320" top="126837" width="9360" height="276" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="9360" height="276"/>
+    </infos>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+</root>

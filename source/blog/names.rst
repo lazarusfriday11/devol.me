@@ -78,8 +78,7 @@ So guys name Ryan Johnson will make a best effort choose somthing like mcummings
 
 However it turns out that No one calls her or knows her only as Mary Cummings, as that as added after she married her partner.
 And Hee Sop Choi would rather have used his taken name of Danny,
-the name he has used since me moved here at the age of 4. 
-Or perhaps he would never want to be known as simply Hee Choi. 
+the name he has used since me moved here with his parents at the age of 4 and perhaps he would never want to be known as simply Hee Choi. 
 
 These objections are taken and handled on a case by case basis.
 However, you are often out luck, they are the boss.
@@ -87,8 +86,10 @@ If it is changed after the account is created,
 you are almost guaranteed to have account issues as you continue through out your employment.
 Keep that in mind ladies and gentlemen when decided on how you change or don't change names.
 
-but
 
+There is rarely a large motivation in IT to mix things up.
+IT is about providing reliable service cost savings.
+To ask massive companies reform, would I image, be cost prohibitive.
 I've spent a lot of my professional life making usernames and passwords,
 and it reminded me of a demonstrable trend: 
 If you have a non Anglo-American name,
