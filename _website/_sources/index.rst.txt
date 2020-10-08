@@ -2,13 +2,15 @@
 Pierce Devol: Technical Writer 
 ###############################
 
+.. include:: source/coverletter.rst
+
 .. include:: source/PierceDevolResume.rst
 
 Portfolio
 =========
 
-.. include:: source/Portfolio.rst
-   :start-line: 9
+.. include:: source/portfolio/portfolio.rst
+   :start-line: 8
 
 Contact Information
 ===================
@@ -22,9 +24,12 @@ Table of Contents
 =================
 
 .. toctree::
+
         source/PierceDevolResume
-        source/Portfolio
+        source/coverletter
+        source/portfolio/Portfolio
+        source/portfolio/basicdev
         source/contact
         source/blog/
-        source/License
+        source/license
 

@@ -4,28 +4,8 @@
 
 
 ##############################
-Resume
+Pierce Devol: Technical Writer
 ##############################
-
-
-Purpose Statement
-=================
-
-.. image:: source/_static/profile.png
-    :align: right 
-
-Proven technical writer seeks to develop clear and concise texts through *empathic documentation*;
-A process that creates more than just documentation:
-
-* Deconstructive editing finds core elements for better understanding and content re-use. 
-* Active listening gathers knowledge and instills confidence in both expert and audience. 
-* Lateral thinking avoids conflicts through constructive criticism.
-* Research brings answers to unasked questions and respects an experts time.
-* Through real understanding by experts and audience, excellent independent work is enabled with minimal support.
-* This method of documentation highlights inefficiency in existing processes.
-  
-Make documentation a symbiotic and synergistic process that improves the lives of the experts and audience at the same time. 
-
 
 Qualifications
 ==============
@@ -35,7 +15,6 @@ Qualifications
 * Conscious of cultural bias, idiom, and otherwise distracting or offensive language in writing for diverse audiences.
 * Understanding of full-stack web development; from design to hosting.
 * Experience working in a CI/DI pipeline with remote repositories, version control, and version tracking alongside developer's workflow.
-
 
 Skills    
 ==========
@@ -58,6 +37,8 @@ Skills
 * Expert Lucidchart diagrams
 * Static site generators such as Sphinx, Hugo, and Jekyll
 * Atlassian products like Jira, Confluence, and ServiceDesk
+* Agile
+* ITIL
 
 
 Writing Experience
@@ -122,4 +103,9 @@ Computer Technician at American Tech, Inc; September 2013 to November 2014.
 * Performed in-depth malware removal and system cleaning on a daily basis.
 * Learned all the different ways a computer can fail to boot.
 
+Pierce Devol | 3705 Emerson St. Oakland, CA | (707) 633-8657 
+=============================================================
 
+
+pierce@devol.me | https://devol.me | https://www.linkedin.com/in/pierce-devol-26a44027
+======================================================================================

@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="Set up Basic Developer Environment" name="title" />
+
+    <title>Set up Company Basic Developer Environment &#8212; devol.me 2 documentation</title>
+    <link rel="stylesheet" href="../../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/language_data.js"></script>
+    <link rel="author" title="About these documents" href="../../../about/" />
+    <link rel="index" title="Index" href="../../../genindex/" />
+    <link rel="search" title="Search" href="../../../search/" />
+    <link rel="next" title="Contact Information" href="../../contact/" />
+    <link rel="prev" title="Pierce Devol: Technical Writer" href="../Portfolio/" />
+  
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  
+  <link rel="alternate" type="application/atom+xml"  href="../../blog/atom.xml" title="Blog">
+  
+  
+  <link href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" rel="stylesheet">
+  
+  <style type="text/css">
+    ul.ablog-archive {list-style: none; overflow: auto; margin-left: 0px}
+    ul.ablog-archive li {float: left; margin-right: 5px; font-size: 80%}
+    ul.postlist a {font-style: italic;}
+    ul.postlist-style-disc {list-style-type: disc;}
+    ul.postlist-style-none {list-style-type: none;}
+    ul.postlist-style-circle {list-style-type: circle;}
+  </style>
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="set-up-company-basic-developer-environment">
+<h1>Set up Company Basic Developer Environment<a class="headerlink" href="#set-up-company-basic-developer-environment" title="Permalink to this headline">¶</a></h1>
+<p>In this document, learn how to clone from and prepare to push code to <em>REDACTED</em> code repositories. Install Arcanist, Bazel, Git to contribute to the <em>REDACTED</em> development process.Be sure to join the <strong>REDACTED</strong> Google group as well.
+Find instructions on how to:</p>
+<ul class="simple">
+<li><p>Install required software</p></li>
+<li><p>Add SSH Public key to Phabricator</p></li>
+<li><p>Clone <em>REDACTED</em> code repositories</p></li>
+<li><p>Prepare to push to <em>REDACTED</em> code repositories</p></li>
+</ul>
+<p>To complete the setup properly, follow the instructions in each section.
+Ensure that you complete each section before moving on to the next one:</p>
+<div class="contents local topic" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#install-required-software" id="id3">Install Required Software</a></p></li>
+<li><p><a class="reference internal" href="#install-arcanist" id="id4">Install Arcanist</a></p></li>
+<li><p><a class="reference internal" href="#generate-a-ssh-key-pair" id="id5">Generate a SSH Key Pair</a></p></li>
+<li><p><a class="reference internal" href="#set-up-phabricator" id="id6">Set up Phabricator</a></p></li>
+<li><p><a class="reference internal" href="#update-git-user-info" id="id7">Update Git User Info</a></p></li>
+<li><p><a class="reference internal" href="#clone-the-redacted-mono-repo" id="id8">Clone the <em>REDACTED</em> Mono Repo</a></p></li>
+<li><p><a class="reference internal" href="#set-default-editor-for-arc-and-git" id="id9">Set Default Editor for Arc and Git</a></p></li>
+<li><p><a class="reference internal" href="#install-arc-certificate" id="id10">Install Arc Certificate</a></p></li>
+<li><p><a class="reference internal" href="#next-steps" id="id11">Next Steps</a></p></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are not on-site and connected to the <em>REDACTED</em> intranet, you will need to
+use the VPN order to access some systems, such as staging servers or the code repository.</p>
+</div>
+<div class="section" id="install-required-software">
+<h2><a class="toc-backref" href="#id3">Install Required Software</a><a class="headerlink" href="#install-required-software" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Open a terminal window and install Homebrew.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/bin/bash -c <span class="s2">&quot;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh<span class="k">)</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+<p>Click through any prompts that may appear.</p>
+</li>
+<li><p>Change Homebrew directory ownership.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo chown -h -R <span class="k">$(</span>whoami<span class="k">)</span> /usr/local/
+</pre></div>
+</div>
+</li>
+<li><p>Use Homebrew to install additional dependencies.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>brew install coreutils git git-lfs python@3.7 awscli terraform gawk gnu-sed wget curl bazel jq
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For development in any language at <em>REDACTED</em>, please refer to the language specific guide for installing the toolchain that will work with our codebase.
+There may be additional steps required.</p>
+</div>
+<p>Now you are ready to install Arcanist.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="install-arcanist">
+<h2><a class="toc-backref" href="#id4">Install Arcanist</a><a class="headerlink" href="#install-arcanist" title="Permalink to this headline">¶</a></h2>
+<p>Arcanist provides:</p>
+<ul class="simple">
+<li><p>Command line tools to allow access to many Phabricator tools like Differential, Files, and Paste.</p></li>
+<li><p>Integrates with static analysis (lint) and unit tests.</p></li>
+<li><p>Manages common workflows like getting changes into Differential for review.</p></li>
+</ul>
+<p>For more information see <a class="reference external" href="https://secure.phabricator.com/book/phabricator/article/arcanist/">https://secure.phabricator.com/book/phabricator/article/arcanist/</a></p>
+<ol class="arabic">
+<li><p>Create a directory named <em>tools</em> to for Arcanist.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mkdir</span> <span class="o">~/</span><span class="n">tools</span>
+<span class="n">cd</span> <span class="o">~/</span><span class="n">tools</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">phacility</span><span class="o">/</span><span class="n">arcanist</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<blockquote>
+<div><p>These tools are required to push code to <em>REDACTED</em> code repositories.</p>
+</div></blockquote>
+<ol class="arabic" start="2">
+<li><p>Update your path to include Arcanist</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">echo</span> <span class="s1">&#39;export PATH=&quot;$PATH:$HOME/tools/arcanist/bin/&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bashrc</span>
+<span class="n">echo</span> <span class="s1">&#39;export PATH=&quot;$PATH:$HOME/tools/arcanist/bin/&quot;&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">zshrc</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="generate-a-ssh-key-pair">
+<h2><a class="toc-backref" href="#id5">Generate a SSH Key Pair</a><a class="headerlink" href="#generate-a-ssh-key-pair" title="Permalink to this headline">¶</a></h2>
+<p>If you already have an SSH key pair,
+continue on to <a href="#id1"><span class="problematic" id="id2">`Phabricator Setup`__</span></a> section.
+If you do not have an existing SSH key pair, follow the instructions below:</p>
+<ol class="arabic">
+<li><p>Run <code class="docutils literal notranslate"><span class="pre">ssh-keygen</span></code> in terminal to generate a key pair.</p>
+<p>Respond to each question by pressing <strong>Enter</strong>.
+You will be prompted to create a password, this is optional.
+Creating a password means you will need to enter it for each connection.
+You are not required to enter a password.</p>
+<p><strong>Example</strong>: The following is an example of the output from ssh-keygen.</p>
+</li>
+<li><p>A key pair appears in the ~/.ssh folder.</p>
+<ul class="simple">
+<li><p>The private key in <em>~/.ssh/id_rsa</em>.file</p></li>
+<li><p>The public key in <em>~/.ssh/id_rsa.pub</em> file</p></li>
+</ul>
+<p>The same public key may be used on multiple hosts and services;
+you can re-use the same public key for other SSH connections.
+Set up Phabricator in the next section.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Never share a private key.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="set-up-phabricator">
+<h2><a class="toc-backref" href="#id6">Set up Phabricator</a><a class="headerlink" href="#set-up-phabricator" title="Permalink to this headline">¶</a></h2>
+<p>Once you have an SSH key pair,
+you are now ready to upload your public key to Phabricator.</p>
+<ol class="arabic">
+<li><p>Go to <a class="reference external" href="https://phabricator.*REDACTED*.com/settings/">https://phabricator.*REDACTED*.com/settings/</a>.
+Click <strong>SSH Public Keys</strong> item on the left (<strong>AUTHENTICATION</strong> →  <strong>SSH Public Keys</strong> ).</p></li>
+<li><p>Copy public key to your clipboard.
+Open a terminal and run:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pbcopy &lt; ~/.ssh/id_rsa.pub
+</pre></div>
+</div>
+</li>
+<li><p>Go back to Phabricator and click <strong>SSH Key Actions</strong>  →  <strong>Upload Public Key</strong>.
+A window appears with fields for you to name the key paste the contents your clipboard.</p></li>
+<li><p>Create a name for the key; the example key will use the name <em>id_rsa.pub</em>.</p></li>
+<li><p>Paste the contents of ~/.ssh/id_rsa.pub into the Public Key field: Select the field and press <strong>⌘</strong> + <strong>V</strong>
+to paste and click <strong>Upload Public Key</strong>.</p></li>
+</ol>
+</div>
+<div class="section" id="update-git-user-info">
+<h2><a class="toc-backref" href="#id7">Update Git User Info</a><a class="headerlink" href="#update-git-user-info" title="Permalink to this headline">¶</a></h2>
+<p>Configure Git settings to allow you clone and push changes to <em>REDACTED</em> code repositories.Git was installed earlier in this document using Homebrew.
+Edit and use the following commands according to the comments on each line:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="k">global</span> <span class="n">user</span><span class="o">.</span><span class="n">email</span> <span class="s2">&quot;USERNAME@*REDACTED*.com&quot;</span>
+<span class="c1"># Replace USERNAME with the first part of your *REDACTED* email address.</span>
+<span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="k">global</span> <span class="n">user</span><span class="o">.</span><span class="n">name</span> <span class="s2">&quot;FULLNAME&quot;</span>
+<span class="c1"># Replace FULLNAME with your full name.</span>
+<span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="k">global</span> <span class="n">pull</span><span class="o">.</span><span class="n">rebase</span> <span class="n">true</span>
+<span class="c1"># Configures git to use rebase instead of merge strategy by default when pulling.</span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt><strong>Example:</strong> If your name is Fulano De Tal and email is <a class="reference external" href="mailto:fdetal&#37;&#52;&#48;*REDACTED*&#46;com">fdetal<span>&#64;</span>*REDACTED*<span>&#46;</span>com</a>,</dt><dd><p>update your config like this:</p>
+</dd>
+</dl>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git config --global user.email &quot;fdetal@*REDACTED*.com&quot;
+$ git config --global user.name &quot;Fulano De Tal&quot;
+$ git config --global pull.rebase true
+</pre></div>
+</div>
+</div>
+<div class="section" id="clone-the-redacted-mono-repo">
+<h2><a class="toc-backref" href="#id8">Clone the <em>REDACTED</em> Mono Repo</a><a class="headerlink" href="#clone-the-redacted-mono-repo" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You will not be able to pull the repo if you’re not <a class="reference external" href="https://*REDACTED*.service-now.com/kb_view.do?sysparm_article=">connected to the VPN</a>.</p>
+</div>
+<p>From your home directory, Run the following commands:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span> ~
+<span class="nv">GIT_LFS_SKIP_SMUDGE</span><span class="o">=</span><span class="m">1</span> git clone --depth<span class="o">=</span><span class="m">1</span> --single-branch <span class="se">\\</span>
+<span class="nb">cd</span> *REDACTED*
+git lfs install --skip-smudge --local
+</pre></div>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Ensure that your ~/.zshrc is updated to include Arcanist in your path.
+Run <code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">'export</span> <span class="pre">PATH=&quot;$PATH:$HOME/tools/arcanist/bin/&quot;'</span> <span class="pre">&gt;&gt;</span> <span class="pre">~/.zshrc</span></code>.</p>
+</div>
+</div>
+<div class="section" id="set-default-editor-for-arc-and-git">
+<h2><a class="toc-backref" href="#id9">Set Default Editor for Arc and Git</a><a class="headerlink" href="#set-default-editor-for-arc-and-git" title="Permalink to this headline">¶</a></h2>
+<p>Arc uses the editor ed by default.
+This can be changed to your preferred editor.
+Run the following commands but replace <em>PathToEditor</em> with the path to your preferred editor.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>arc set-config editor *PathToEditor*
+git config --global core.editor *PathToEditor*
+</pre></div>
+</div>
+<p><strong>Example:</strong> If your editor of choice is Vim installed via Homebrew, you would run the following:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ arc set-config editor /usr/local/Cellar/vim/8.2.0250_1/bin/vim
+$ git config --global core.editor /usr/local/Cellar/vim/8.2.0250_1/bin/vim
+</pre></div>
+</div>
+</div>
+<div class="section" id="install-arc-certificate">
+<h2><a class="toc-backref" href="#id10">Install Arc Certificate</a><a class="headerlink" href="#install-arc-certificate" title="Permalink to this headline">¶</a></h2>
+<p>The first time you run <code class="docutils literal notranslate"><span class="pre">arc</span> <span class="pre">diff</span></code> or <code class="docutils literal notranslate"><span class="pre">arc</span> <span class="pre">patch</span></code> to push changes to <em>REDACTED</em> code repositories,
+arc may complain about verifying the centralized Phabricator server.
+If this occurs, Run <code class="docutils literal notranslate"><span class="pre">arc</span> <span class="pre">install-certificate</span></code> and follow the onscreen instructions; then run the command again.</p>
+</div>
+<div class="section" id="next-steps">
+<h2><a class="toc-backref" href="#id11">Next Steps</a><a class="headerlink" href="#next-steps" title="Permalink to this headline">¶</a></h2>
+<p>Now that you have completed this guide,
+you are now ready to submit code to <em>REDACTED</em> repositories with Arcanist.
+In addition, you are now ready to use many of the basic engineering resources.
+After completing this guide, find team-specific on-boarding information for further instruction:</p>
+<p><strong>REACTED</strong></p>
+</div>
+</div>
+
+  <div class="section">
+  
+  
+  </div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Pierce Devol.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../../../_sources/source/portfolio/basicdev.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-27088500-2']);
+      _gaq.push(['_setDomainName', 'none']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    
+  </body>
+</html>

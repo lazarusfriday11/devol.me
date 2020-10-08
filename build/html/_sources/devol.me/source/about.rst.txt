@@ -1,6 +1,0 @@
-.. meta::
-        :title: About this page
-        :author: Pierce Devol (pierce@devol.me)
-
-
-

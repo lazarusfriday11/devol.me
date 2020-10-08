@@ -1,0 +1,7 @@
+- On-boarding event
+- Establish credibility
+- How technology doesn't fit people
+- Why doesn't it fit people, IT ignorance.
+- Examples of messed up names
+- Why does it matter?
+- How can it change? 
