@@ -11,7 +11,7 @@ Resume
 Purpose Statement
 =================
 
-.. image:: source/_static/profile.png
+.. image:: _static/profile.png
     :align: right 
 
 Proven technical writer seeks to develop clear and concise texts through *empathic documentation*;
