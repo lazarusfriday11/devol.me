@@ -14,8 +14,8 @@ Linkedin
 
 Mailing Address
     Pierce Devol
-    3705 Emerson St. 
-    Oakland, CA 94610
+    13562 West Iliff St. 
+    Lakewood, CO 80228
 
 Or download `this vCard file <https://drive.google.com/file/d/1V9_po7k-ugnJi_ehAHpiYuLt7_TPSJ2k/view?usp=sharing>`__
 and import into your contacts.
