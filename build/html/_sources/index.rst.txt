@@ -27,7 +27,3 @@ Table of Contents
         contact
         blog/
         License
-
-
-Hello world
-~~~~~~~~~~~
