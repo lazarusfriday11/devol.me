@@ -7,7 +7,7 @@ Email
     pierce@devol.me
 
 Phone 
-    (707) 633-8657
+    707.633.8657
 
 Linkedin
     https://www.linkedin.com/in/pierce-devol-26a44027/
