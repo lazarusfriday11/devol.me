@@ -2,7 +2,7 @@
 API Demonstration
 #################
 
-An API, or application program interface, allow systems to interact with each other.
+An API, or application program interface, allows systems to interact with each other.
 A Developer often creates an API to serve as a set of tools that allows other applications to interact with their applications.
 Using the API, a developer can make a request to this API and receive a response.
 The response will include a certain set of data in a standardized format.
