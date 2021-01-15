@@ -24,6 +24,7 @@ Table of Contents
 .. toctree::
         PierceDevolResume
         Portfolio
+        APIDemo
         contact
         blog/
         License

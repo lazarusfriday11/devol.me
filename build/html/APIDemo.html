@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Demonstration &#8212; devol.me 3 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Contact Information" href="contact.html" />
+    <link rel="prev" title="Portfolio" href="Portfolio.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="api-demonstration">
+<h1>API Demonstration<a class="headerlink" href="#api-demonstration" title="Permalink to this headline">¶</a></h1>
+<p>An API, or application program interface, allow systems to interact with each other.
+A Developer often creates an API to serve as a set of tools that allows other applications to interact with their applications.
+Using the API, a developer can make a request to this API and receive a response.
+The response will include a certain set of data in a standardized format.</p>
+<p>This allows many programming languages to get or manipulate data.
+What happens is defined by the API method. Methods are typically verbs such as POST, PUT, PATCH, or GET.
+Each request includes at least a method and endpoint.</p>
+<p>As an example, I’ll make a request to RESTful national weather service (weather.gov) API using curl.
+This call uses curl to execute the GET method and the <code class="docutils literal notranslate"><span class="pre">/gridpoints/BOU/62,60/forecast</span></code> endpoint to get forecast for tonight in Glendale, CO.</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">curl</span> <span class="o">-</span><span class="n">X</span> <span class="n">GET</span> <span class="s2">&quot;https://api.weather.gov/gridpoints/BOU/62,60/forecast&quot;</span> <span class="o">|</span> <span class="n">grep</span> <span class="o">-</span><span class="n">A</span> <span class="mi">9</span> <span class="s1">&#39;&quot;number&quot;: 1,&#39;</span>
+<span class="go">  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current</span>
+<span class="go">                                 Dload  Upload   Total   Spent    Left  Speed</span>
+<span class="go">  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0                &quot;number&quot;: 1,</span>
+<span class="go">                &quot;name&quot;: &quot;Tonight&quot;,</span>
+<span class="go">                &quot;startTime&quot;: &quot;2021-01-14T21:00:00-07:00&quot;,</span>
+<span class="go">                &quot;endTime&quot;: &quot;2021-01-15T06:00:00-07:00&quot;,</span>
+<span class="go">                &quot;isDaytime&quot;: false,</span>
+<span class="go">                &quot;temperature&quot;: 19,</span>
+<span class="go">                &quot;temperatureUnit&quot;: &quot;F&quot;,</span>
+<span class="go">                &quot;temperatureTrend&quot;: &quot;rising&quot;,</span>
+<span class="go">                &quot;windSpeed&quot;: &quot;10 mph&quot;,</span>
+<span class="go">                &quot;windDirection&quot;: &quot;NW&quot;,</span>
+<span class="go">100 11300  100 11300    0     0   112k      0 --:--:-- --:--:-- --:--:--  112k</span>
+</pre></div>
+</div>
+<p>In the above example:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt><code class="docutils literal notranslate"><span class="pre">curl</span> <span class="pre">-X</span></code> invokes the <code class="docutils literal notranslate"><span class="pre">GET</span></code> method on the <a class="reference external" href="https://api.weather.gov">https://api.weather.gov</a> resource.</dt><dd><p>This is a request to the National Weather Service API for information.</p>
+</dd>
+</dl>
+</li>
+<li><p>The endpoint is <code class="docutils literal notranslate"><span class="pre">/gridpoints/BOU/62,60/forecast</span></code></p>
+<ul>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">BOU</span></code> and <code class="docutils literal notranslate"><span class="pre">62,60</span></code> are used to set the location for the forecast</p>
+<ul>
+<li><p>Format: <code class="docutils literal notranslate"><span class="pre">/gridpoints/{wfo}/{x},{y}/</span></code></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>The response is returned in JSON format.</p></li>
+</ul>
+<p>To keep the sample response manageable, I used <code class="docutils literal notranslate"><span class="pre">grep</span></code> to limit it to tonight’s forecast.</p>
+<div class="section" id="api-documentation">
+<h2>API Documentation<a class="headerlink" href="#api-documentation" title="Permalink to this headline">¶</a></h2>
+<p>API documentation generally consists of the following sections.</p>
+<ul class="simple">
+<li><p>Getting started guide</p>
+<ul>
+<li><p>Authentication set up instructions</p></li>
+</ul>
+</li>
+<li><p>General usage instructions</p>
+<ul>
+<li><p>Includes sample code</p></li>
+</ul>
+</li>
+<li><p>Resource, method, and endpoint references</p></li>
+<li><p>Error code definitions</p></li>
+<li><p>SDK instructions</p></li>
+</ul>
+</div>
+<div class="section" id="publishing">
+<h2>Publishing<a class="headerlink" href="#publishing" title="Permalink to this headline">¶</a></h2>
+<p>This documentation is delivered in many ways. The following are two of the more popular methods in use.</p>
+<div class="section" id="static-site-generators">
+<h3>Static Site Generators<a class="headerlink" href="#static-site-generators" title="Permalink to this headline">¶</a></h3>
+<p>APIs are often documented on statically generated websites.
+These are websites that are made using static site generators such as Hugo or Jekyll.
+I used one called Sphinx to generate this website.</p>
+<p>Using a static site generator, like this one, is convenient for both developers and technical writers.
+Developers can easily include existing code blocks and updates them automatically.
+The technical writer’s work is now in step with the development cycle.
+They can edit and creates documents alongside code in a git repository.
+This is also known as a docs-as-code workflow.</p>
+</div>
+<div class="section" id="api-documentation-tools">
+<h3>API Documentation Tools<a class="headerlink" href="#api-documentation-tools" title="Permalink to this headline">¶</a></h3>
+<p>Currently, APIs are commonly documented using API tools such as Swagger and Postman.
+These tools make use of the Open API Standard to generate API documentation automatically.
+This makes the work of documentation even easier.
+The developer is no longer required to manually create examples in separate documentation.
+The technical writer becomes more of an editor and can focus their efforts more selectively.
+Tools like this also have the advantage of being interactive.
+They can allow the developer to test the API <em>in the documentation</em>.
+A tool like this was also provided by <a class="reference external" href="https://www.weather.gov/documentation/services-web-api#/default/get_gridpoints__wfo___x___y__forecast">weather.gov</a>.
+The previous example could have been done entirely from the website.</p>
+<img alt="_images/weathergov.png" src="_images/weathergov.png" />
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">devol.me</a></h1>
+
+
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=lazarusfriday11&repo=devol.me&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="PierceDevolResume.html">Resume</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Portfolio.html">Portfolio</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API Demonstration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#api-documentation">API Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#publishing">Publishing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#static-site-generators">Static Site Generators</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#api-documentation-tools">API Documentation Tools</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Contact Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="License.html">License</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="Portfolio.html" title="previous chapter">Portfolio</a></li>
+      <li>Next: <a href="contact.html" title="next chapter">Contact Information</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Pierce Devol.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/APIDemo.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-27088500-2']);
+      _gaq.push(['_setDomainName', 'none']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    
+  </body>
+</html>

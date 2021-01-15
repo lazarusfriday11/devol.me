@@ -9,6 +9,9 @@ Portfolio
 Unfortunately more complex samples can't be displayed due to their sensitive nature and previously signed non-disclosure agreements. Below is sanitized end-user material that is safe to display.  
 Download writing samples (pdf):
 
+Samples
+=======
+
 * `Windows network Follow-you printer instructions <https://drive.google.com/file/d/1k23uz721Z4mCljKs2VqwrHa3YVQy40P6/view?usp=sharing>`__
 
 * `Mac printer instructions <https://drive.google.com/file/d/1oxOsSdxLYal29AnRc0Sof66VdMptTZFq/view?usp=sharing>`__
@@ -19,3 +22,7 @@ Download writing samples (pdf):
 
 * `Printable Resume (PDF) <https://drive.google.com/file/d/1T3xatWsYNn0Q_oUxLxb-CLQaSUwB9rg-/view?usp=sharing>`__
 
+Publications
+============
+
+* `The 4 Ws of the modern job hunt (Quill.com) <https://www.quill.com/blog/tutorials/the-4-ws-of-the-modern-job-hunt.html>`__
