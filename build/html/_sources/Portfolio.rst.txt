@@ -12,6 +12,9 @@ Download writing samples (pdf):
 Samples
 =======
 
+* `Set up Company Basic Developer Environment <https://drive.google.com/file/d/1zeeKSWdjOZVEmCDJLhG929BHBpMUX6rp/view?usp=sharing>`__
+
+
 * `Windows network Follow-you printer instructions <https://drive.google.com/file/d/1k23uz721Z4mCljKs2VqwrHa3YVQy40P6/view?usp=sharing>`__
 
 * `Mac printer instructions <https://drive.google.com/file/d/1oxOsSdxLYal29AnRc0Sof66VdMptTZFq/view?usp=sharing>`__
