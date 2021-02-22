@@ -14,64 +14,56 @@ Purpose Statement
 .. image:: _static/profile.png
     :align: right 
 
-Proven technical writer seeks to develop clear and concise texts through *empathic documentation*;
-A process that creates more than just documentation:
+Veteran IT technician seeks to provide superior customer service using broad expertise; both technical and non-technical.
 
-* Deconstructive editing finds core elements for better understanding and content re-use. 
-* Active listening gathers knowledge and instills confidence in both expert and audience. 
-* Lateral thinking avoids conflicts through constructive criticism.
-* Research brings answers to unasked questions and respects an experts time.
-* Through real understanding by experts and audience, excellent independent work is enabled with minimal support.
-* This method of documentation highlights inefficiency in existing processes.
-  
-Make documentation a symbiotic and synergistic process that improves the lives of the experts and audience at the same time. 
-
+* 5 years of IT support experience.
+* Experienced in the Silicon valley enterprise IT scene, working with Amazon and biotech.
+* Empathy beyond the average technician with experience in pastoral counseling.
+* Excellent written communication skills, that create excellent hands off solutions.
+* Oriented toward efficient processes, work smarter not harder.
+* Efficiency that focuses on closing tickets and solving problems.
 
 Qualifications
 ==============
 
-* Principal author and editor of 4 different knowledge bases using Confluence and ServiceNow.
-* Single-source documentation specialist for publishing and reuse on any platform.
-* Conscious of cultural bias, idiom, and otherwise distracting or offensive language in writing for diverse audiences.
-* Understanding of full-stack web development; from design to hosting.
-* Experience working in a CI/DI pipeline with remote repositories, version control, and version tracking alongside developer's workflow.
-
+* Strong client support across multiple platforms: Linux, Windows, and macOS.
+* Critical listening that listens for the real solution behind user issues.
+* Carefully considers future problems aimed at preventative solutions.
+* Strong break/fix background. 
 
 Skills    
 ==========
 
-* Markup languages such as HTML, Markdown, and reStructured text
-* Basic knowledge of CSS
-* Expert Windows and macOS client support
-* Linux workstation and remote server experience, working knowledge of bash
-
-  * Distributions include CentOS, Arch, and Ubuntu
-
-* MDM tools like Jamf and Meraki 
+* Expert Windows, Linux, and macOS client support
+* Terminal and Command line competent.
+* Experience MDM tools like Jamf and Meraki 
 * Terminal emulator and command-line interfaces.
-* git and GitHub 
-* Content management systems like ServiceNow, Confluence, and AODocs
-* Working knowledge of Adobe Creative Cloud suite
+* Experienced in diverse array of ticketing systems: ServiceNow, Jira, Jira Service Desk, ConnectWise, and Remedy. 
 * Advanced Microsoft Word, Excel, and PowerPoint skills
 * Expert on G Suite Docs, Sheets, and Slides
-* Project management tools like Smartsheet
-* Expert Lucidchart diagrams
-* Static site generators such as Sphinx, Hugo, and Jekyll
-* Atlassian products like Jira, Confluence, and ServiceDesk
 
+  * Some G Suite administration experience.
 
-Writing Experience
-==================
+* Active Directory and LDAP experience.
+* Imaging and enrollment tools such as
 
-* System administrator documentation
-* Disaster Recovery Plans (DRPs)
-* Standard Operating Procedures (SOPs)
-* End-user documentation 
-* Network documentation and diagrams
-* FDA compliance documentation, 21 CFR Part 11
-* Blog content
-* Diagrams and charts
+  * Norton Ghost
+  * WDS
+  * DEP and non-DEP enrollment tools
+  * Clonezilla
+  * Acronis
 
+* System building and component level hardware repair experience
+* VPN administration with Cisco and OpenVPN
+* Meeting room Audio Visual experience with Crestron systems.
+* Virtualisation experience with VM Ware, Virtual box, and Amazon Workspaces.
+* Windows 7, 8, and 10 experience.
+* macOS 10.11 to macOS 10.15.
+* Ubuntu 12 through Ubuntu 20.
+* Wireless network troubleshooting.
+* Strong understanding of TCP/IP and networking fundamentals.  
+* Printer/copier deployment and maintenance.  
+* Bomgar, RDP, Teamviewer, and Logmein remote client support experience.
 
 Education
 =========
@@ -85,26 +77,29 @@ Work Experience
 ===============
 
 
-Technical Writer at KDInfotech; employed November 2018 - September 2020.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+IT Support Engineer and Technical writer at DInfotech; employed November 2018 - September 2020.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Supplied writing services for primary biotech client GRAIL Inc.
-* Architect of two IT Knowledge bases.
-* Editor/Ghost Writer of critical infrastructure documentation.
-* Prolific writer of end-user documentation for business wide systems.
-* Supplied federal compliance documentation for FDA audit.
-
+* Desk-side support for laptops and desktops
+* Administrator of two ServiceNow IT Knowledge bases
+* Executive support
+* Asset management
+* Windows and macOS support
+* AD support
+* Printer and copier support
+* Administered assorted services like Sophos, Jamf, G Suite, Office 365, Lucidcharts, and Smartsheets
+* ServiceNow ticketing system
 
 IT Support Engineer at Twitch/Amazon; employed December 2016 - October 2018.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Authored the majority of end-user documentation.
-* Provided white-glove user support using Jira Service Desk for ticketing.
+* Provided white-glove user support using Jira Service Desk and Remedy for ticketing.
 * Administered multiple SaaS products such as Jira, Confluence, G Suite,
-  Lucidchart, Office 365 products, and Jamf.
+  Lucidcharts, Office 365 products, and Jamf.
 * Worked with enterprise level directory services such as AD and LDAP.
 * Prepared, repaired and deployed Windows, macOS, and Linux machines.
-
+* Asset management
 
 Technical Service Representative at SmartSource Computer & AV Rentals; employed November 2014 - September 2016.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -118,7 +113,7 @@ Technical Service Representative at SmartSource Computer & AV Rentals; employed 
 Computer Technician at American Tech, Inc; September 2013 to November 2014.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Provided break/fix computer services.
+* Provided break/fix computer services for hardware and software.
 * Performed in-depth malware removal and system cleaning on a daily basis.
 * Learned all the different ways a computer can fail to boot.
 

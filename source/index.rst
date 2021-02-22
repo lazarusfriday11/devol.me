@@ -1,14 +1,8 @@
 ###############################
-Pierce Devol: Technical Writer 
+Pierce Devol: IT Support Engineer 
 ###############################
 
 .. include:: /PierceDevolResume.rst
-
-Portfolio
-=========
-
-.. include:: Portfolio.rst
-   :start-line: 9
 
 Contact Information
 ===================
@@ -23,8 +17,5 @@ Table of Contents
 
 .. toctree::
         PierceDevolResume
-        Portfolio
-        APIDemo
         contact
-        blog/
         License
